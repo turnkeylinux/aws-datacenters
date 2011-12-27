@@ -10,27 +10,6 @@ import os
 from string import Template
 from math import *
 
-MAP_HEAD="""
-<html>
-<head>
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<title>GeoIP AWS Regions Map</title>
-<link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript">
-
-  function initialize() {
-    var myLatLng = new google.maps.LatLng(25, 0);
-    var myOptions = {
-      zoom: 2,
-      center: myLatLng,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-
-    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-"""
-
 MAP_MARKER="""
     var M$num = new google.maps.Marker({
       position: new google.maps.LatLng($latlon),
@@ -44,16 +23,6 @@ MAP_LINE="""
     var L$num = [ new google.maps.LatLng($e_ll), new google.maps.LatLng($r_ll)];
     var P$num = new google.maps.Polyline({ path: L$num, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P$num.setMap(map);
-"""
-
-MAP_TAIL="""
-  }
-</script>
-</head>
-<body onload="initialize()">
-  <div id="map_canvas"></div>
-</body>
-</html>
 """
 
 def haversine(lat1, lon1, lat2, lon2):
@@ -122,31 +91,33 @@ class Entries(dict):
 
         fd.close()
 
-    def write_map(self, filepath):
-        """generate map html at filepath"""
-        fd = open(filepath, 'w')
+    def write_map(self, template, output):
+        """generate map from template"""
+        t = Template(file(template).read())
 
-        print >>fd, MAP_HEAD
-
+        # markers
         n = 0
-        t = Template(MAP_MARKER)
+        markers = []
+        marker = Template(MAP_MARKER)
         for r in self.regions.values():
             n += 1
             title = "%s (%s)" % (r.name, r.code)
-            print >>fd, t.substitute(num=n, latlon=r.latlon, title=title)
+            markers.append(marker.substitute(num=n, latlon=r.latlon, title=title))
 
+        # lines
         n = 0
-        t = Template(MAP_LINE)
+        lines = []
+        line = Template(MAP_LINE)
         for e in self.values():
-            if not e.lon:
-                continue
-
+            if not e.lon: continue
             n += 1
             r = self.regions[e.region]
-            print >>fd, t.substitute(num=n, e_ll=e.latlon, r_ll=r.latlon)
+            lines.append(line.substitute(num=n, e_ll=e.latlon, r_ll=r.latlon))
 
-        print >>fd, MAP_TAIL
+        html = t.substitute(MARKERS="\n".join(markers), LINES="\n".join(lines) )
 
+        fd = open(output, 'w')
+        fd.write(html)
         fd.close()
 
     def __iter__(self):
@@ -170,9 +141,10 @@ def main():
         code, tag, name, region = line.rstrip().split(";")
         entries.override_entry(code, name, tag, region)
 
-    entries.write_map("output/map.html")
     entries.write_index("usa", "output/usa.index")
     entries.write_index("countries", "output/countries.index")
+    entries.write_map("input/map.html.tmpl", "output/map.html")
+
 
 if __name__ == "__main__":
     main()
