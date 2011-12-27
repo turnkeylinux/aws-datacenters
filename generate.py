@@ -8,6 +8,7 @@
 
 import os
 from string import Template
+from math import *
 
 MAP_HEAD="""
 <html>
@@ -55,6 +56,16 @@ MAP_TAIL="""
 </html>
 """
 
+def haversine(lat1, lon1, lat2, lon2):
+    """calculate the great circle distance between two points on the earth"""
+    lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
+    dlon = lon2 - lon1
+    dlat = lat2 - lat1
+    a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
+    c = 2 * asin(sqrt(a))
+    km = 6367 * c
+    return km
+
 class Entry:
     def __init__(self, code, name, lat, lon, tag=None, region=None):
         self.code = code
@@ -74,15 +85,14 @@ class Entries(dict):
     def __init__(self):
         self.regions = {}
 
-    def _get_closest_region(self, lon):
-        """guess closest regional datacenter by longitude"""
-        def _closest(target, collection):
-            return float(min((abs(target - i), i) for i in collection)[1])
+    def _get_closest_region(self, lat, lon):
+        """returns closest region using haversine formula"""
+        distances = {}
+        for name, region in self.regions.items():
+            distance = haversine(lat, lon, region.lat, region.lon)
+            distances[distance] = name
 
-        lons = map(lambda r: r.lon, self.regions.values())
-        regions = dict(zip(lons, self.regions.keys()))
-
-        return regions[_closest(lon, regions.keys())]
+        return distances[min(distances.keys())]
 
     def add_region(self, code, name, lat, lon):
         """add a regional datacenter"""
@@ -91,7 +101,7 @@ class Entries(dict):
     def add_entry(self, code, name, lat, lon, tag=""):
         """add an entry"""
         codetag = "-".join([code, tag])
-        region = self._get_closest_region(lon)
+        region = self._get_closest_region(lat, lon)
         self[codetag] = Entry(code, name, lat, lon, tag, region)
 
     def override_entry(self, code, name, tag, region):
