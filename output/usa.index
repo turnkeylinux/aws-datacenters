@@ -1,6 +1,6 @@
 AA;Armed Forces Americas;us-east-1
 AE;Armed Forces Europe, Middle East, & Canada;us-east-1
-AK;Alaska;us-west-1
+AK;Alaska;us-west-2
 AL;Alabama;us-east-1
 AP;Armed Forces Pacific;us-east-1
 AR;Arkansas;us-east-1
@@ -12,7 +12,7 @@ DC;District of Columbia;us-east-1
 DE;Delaware;us-east-1
 FL;Florida;us-east-1
 GA;Georgia;us-east-1
-HI;Hawaii;us-west-1
+HI;Hawaii;us-west-2
 IA;Iowa;us-east-1
 ID;Idaho;us-west-1
 IL;Illinois;us-east-1
@@ -38,17 +38,17 @@ NV;Nevada;us-west-1
 NY;New York;us-east-1
 OH;Ohio;us-east-1
 OK;Oklahoma;us-east-1
-OR;Oregon;us-west-1
+OR;Oregon;us-west-2
 PA;Pennsylvania;us-east-1
 RI;Rhode Island;us-east-1
 SC;South Carolina;us-east-1
-SD;South Dakota;us-east-1
+SD;South Dakota;us-west-1
 TN;Tennessee;us-east-1
-TX;Texas;us-west-1
+TX;Texas;us-east-1
 UT;Utah;us-west-1
 VA;Virginia;us-east-1
 VT;Vermont;us-east-1
-WA;Washington;us-west-1
+WA;Washington;us-west-2
 WI;Wisconsin;us-east-1
 WV;West Virginia;us-east-1
 WY;Wyoming;us-west-1
