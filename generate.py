@@ -91,8 +91,8 @@ class Entries(dict):
 
         fd.close()
 
-    def write_map(self, template, output):
-        """generate map from template"""
+    def write_map(self, template, cables, output):
+        """generate map from template (cables, markers, lines)"""
         t = Template(file(template).read())
 
         # markers
@@ -114,7 +114,9 @@ class Entries(dict):
             r = self.regions[e.region]
             lines.append(line.substitute(num=n, e_ll=e.latlon, r_ll=r.latlon))
 
-        html = t.substitute(MARKERS="\n".join(markers), LINES="\n".join(lines) )
+        html = t.substitute( CABLES=file(cables).read(),
+                             MARKERS="\n".join(markers),
+                             LINES="\n".join(lines) )
 
         fd = open(output, 'w')
         fd.write(html)
@@ -143,7 +145,7 @@ def main():
 
     entries.write_index("usa", "output/usa.index")
     entries.write_index("countries", "output/countries.index")
-    entries.write_map("input/map.html.tmpl", "output/map.html")
+    entries.write_map("input/map.html.tmpl", "input/cables", "output/map.html")
 
 
 if __name__ == "__main__":

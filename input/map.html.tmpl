@@ -257,7 +257,9 @@ function initialize() {
         mapTypeId: google.maps.MapTypeId.TERRAIN };
     map = new google.maps.Map(document.getElementById("map_canvas"), myOptions); 
 
-    // MAPPING DATA GOES HERE
+    ${CABLES}
+    ${MARKERS}
+    ${LINES}
 
 	for (var l=0;l<landings.length;l++) {
 	    var land = landings[l];
