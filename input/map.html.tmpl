@@ -1,28 +1,425 @@
+<!-- Based on Greg's Cable Map: http://www.cablemap.info/ -->
+<!-- Client side query string name=value pairs by Adam Vandenberg -->
 <html>
 <head>
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 <title>GeoIP AWS Regions Map</title>
-<link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
+var map = null;
+var mode = "idle";
 
-  function initialize() {
-    var myLatLng = new google.maps.LatLng(25, 0);
+var cables = [];
+var landings = [];
+var landxref = [];
+
+var fRadio = "after";
+var fValue = "0";
+
+var cableHi = "#ffffff";
+var cableOn = "";
+var txtCoord = "";
+
+var colR=0, colG=0, colB=252;
+var cols = [];
+
+var currentWindow = null;
+
+function Querystring(qs) {
+	this.params = new Object()
+	this.get=Querystring_get
+
+	if (qs == null)
+		qs=location.search.substring(1,location.search.length)
+
+	if (qs.length == 0) return
+
+	qs = qs.replace(/\+/g, ' ')
+	var args = qs.split('&') // parse out name/value pairs separated via &
+
+	for (var i=0;i<args.length;i++) {
+		var value;
+		var pair = args[i].split('=')
+		var name = unescape(pair[0])
+
+		if (pair.length == 2)
+			value = unescape(pair[1])
+		else
+			value = name
+
+		this.params[name] = value
+	}
+}
+
+function Querystring_get(key, default_) {
+	if (default_ == null) default_ = null; // change UNDEFINED to NULL
+	var value=this.params[key]
+	if (value==null) value=default_;
+	return value
+}
+
+function CCable(name, capacity, url1, url2, distance, inservice, precise, notes, coord) {
+    this.mName = name;
+    if (capacity!="")
+        this.mCapacity = parseFloat(capacity);
+    else
+        this.mCapacity = 0;
+
+    if (distance!="")
+        this.mDistance = parseFloat(distance);
+    else
+        this.mDistance = 0;
+
+    this.mUrl1 = url1;
+    this.mUrl2 = url2;
+    this.mOverland = 0;
+    this.mNotLive = 0;
+    this.mCoord = coord = [];
+    this.mLandings = [];
+    this.mColour = null;
+    this.mControl = [];
+    this.mControlWidth = 0;
+    this.mSortKey = 0;
+    this.mInService = inservice;
+    this.mNotes = notes;
+    this.mPrecise = precise;
+    this.mBounds = [];
+}
+
+function IsInArray(arr, find) {
+    for (var l=0;l<arr.length;l++) {
+        if (arr[l]==find) return true;
+    }
+    return false;
+}
+
+function ProcessCable(name, capacity, url1, url2, distance, overland, notlive, inservice, precise, notes, bounds, coords) {
+    var vell = [];
+    var landtemp = [];
+
+    for (var ll=0;ll<coords.length;ll++) {
+        var key = coords[ll][0].toFixed(5)+","+coords[ll][1].toFixed(5);
+        if (landxref[key]!=null) {
+            landings[landxref[key]].mCables.push(name);
+            landtemp.push(landxref[key]);
+        }
+        vell.push(new google.maps.LatLng(coords[ll][1], coords[ll][0]));
+    }
+
+    if (cables[name]==undefined) {
+        var cable = new CCable(name, capacity, url1, url2, distance, inservice, precise, notes);
+        cable.mCoord.push(vell);
+        cables[name]=cable;
+        cables[name].mNotLive = notlive;
+        cables[name].mBounds = bounds;
+        for (var tl=0;tl<landtemp.length;tl++) {
+            if (!IsInArray(cables[name].mLandings, landtemp[tl])) {
+                cables[name].mLandings.push(landtemp[tl]);
+            }
+        }
+        for (var sl=0;sl<coords.length;sl++) { cables[name].mSortKey+=coords[sl][0]; }
+        cables[name].mSortKey = cables[name].mSortKey%100;
+    } else {
+        cables[name].mCoord.push(vell);
+        cables[name].mNotLive = notlive;
+        for (var tl=0;tl<landtemp.length;tl++) if (!IsInArray(cables[name].mLandings, landtemp[tl])) cables[name].mLandings.push(landtemp[tl]);
+        if (cables[name].mCapacity=="" && capacity!="") cables[name].mCapacity=parseFloat(capacity);
+        if (cables[name].mUrl1=="" && url1!="") cables[name].mUrl1=url1;
+        if (cables[name].mUrl2=="" && url2!="") cables[name].mUrl2=url2;
+        if (cables[name].mDistance=="" && distance!="") cables[name].mDistance=parseFloat(distance);
+        // expand the bounds if necessary
+        if (bounds[0]<cables[name].mBounds[0]) cables[name].mBounds[0]=bounds[0];
+        if (bounds[1]<cables[name].mBounds[1]) cables[name].mBounds[1]=bounds[1];
+        if (bounds[2]>cables[name].mBounds[2]) cables[name].mBounds[2]=bounds[2];
+        if (bounds[3]>cables[name].mBounds[3]) cables[name].mBounds[3]=bounds[3];
+    }
+}
+
+function hex2(intt) {
+    var hexc = "0123456789ABCDEF";
+    return hexc.substring(intt/16,intt/16+1) + hexc.substring(intt%16,intt%16+1);
+}
+
+function SetupCols(numCables) {
+    var colStep = Math.floor(192/Math.pow(numCables,1/3));
+    for (var l=0;l<ArraySize(cables);l++) {
+        colB = colB + colStep;
+        if (colB>255) {
+            colB = colStep;
+            colG = colG + colStep;
+            if (colG>255) {
+                colG = colStep;
+                colR = colR + colStep;
+                if (colR>255) {
+                    colR = 63;
+                    colG = 63;
+                    colB = 63;
+                }
+            }
+        }
+        cols.push("#"+hex2(colR)+hex2(colG)+hex2(colB));
+    }
+}
+
+function CTmpSort(name, key) {
+    this.mName = name;
+    this.mSortKey = key;
+}
+
+function byWeight(a,b) {
+    if (a.mSortKey<b.mSortKey) return -1;
+    if (a.mSortKey>b.mSortKey) return +1;
+    return 0;
+}
+
+function DisplayCablePolysInitial(d_active, d_inactive) {
+    var stmp = [];
+    for (var c in cables) {
+        stmp.push(new CTmpSort(c,cables[c].mSortKey));
+    }
+    stmp.sort(byWeight);
+
+    var currCol=0;
+    for (var cloop=0;cloop<stmp.length;cloop++) {
+        var showthis = true;
+
+        cable = cables[stmp[cloop].mName];
+
+        if (cable.mNotLive) {
+            showthis = d_inactive;
+        } else {
+            showthis = d_active;
+        }
+
+        if (cable.mCoord==null) alert(cable);
+        var tmp;
+
+        for (var ln = 0; ln<cable.mCoord.length;ln++) {
+
+            var lwidth = 2;
+            if (cable.mCapacity>1000) lwidth=2+cable.mCapacity/1000;
+            if (lwidth>8) lwidth=8;
+
+            var shape = new google.maps.Polyline({
+                path: cable.mCoord[ln],
+                strokeColor: cols[currCol],
+                strokeOpacity: 0.5,
+                strokeWeight: lwidth
+            });
+            shape.set("name", cable.mName);
+            shape.set("ref", cloop);
+
+            if (showthis) shape.setMap(map);
+            cable.mControl.push(shape);
+            cable.mControlWidth = lwidth;
+            cable.mColour = cols[currCol];
+        }
+        currCol++;
+   }
+}
+
+function DisplayCablePolys(d_active, d_inactive) {
+    for (var c in cables) {
+        cable = cables[c];
+
+        if (cable.mNotLive) {
+            showthis = d_inactive;
+        } else {
+            showthis = d_active;
+        }
+
+        if (cable.mInService.value>0) {
+            if (fRadio=="after") showthis = (cable.mInService.value*1 >= fValue*1);
+            if (fRadio=="before") showthis = (cable.mInService.value*1 < fValue*1) && cable.mInService.value*1!=0;
+            if (fRadio=="during") showthis = (cable.mInService.value*1 == fValue*1);
+        }
+
+        for (var ml=0;ml<cable.mControl.length;ml++) {
+            if (showthis) cable.mControl[ml].setMap(map);
+                else cable.mControl[ml].setMap(null);
+        }
+    }
+}
+
+ArraySize = function (arr) {
+    var l = arr.length ? --arr.length : -1;
+    for (var k in arr) {
+        l++;
+    }
+    return l;
+}
+
+function initialize() {
+    var latlng = new google.maps.LatLng(0,0);
     var myOptions = {
-      zoom: 2,
-      center: myLatLng,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
+        zoom: 2,
+        center: latlng,
+        mapTypeId: google.maps.MapTypeId.TERRAIN };
+    map = new google.maps.Map(document.getElementById("map_canvas"), myOptions); 
 
-    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    // MAPPING DATA GOES HERE
 
-    ${MARKERS}
-    ${LINES}
-  }
+	for (var l=0;l<landings.length;l++) {
+	    var land = landings[l];
+
+        var lLL = new google.maps.LatLng(land.mY, land.mX);
+        var marker = new google.maps.Marker( { position: lLL,  map: map,  title: land.mName+" ("+land.mCountry+")", visible: map.getZoom()>7  });   
+        marker.set("ref", l);
+        landings[l].mMarker = marker;
+
+		var desc = String(land.mCables.length)+" cable"+(land.mCables==1?"":"s")+" land here<br>";
+		for (var cl=0;cl<land.mCables.length;cl++) {
+		    desc += "<li>"+land.mCables[cl] + "<br>";
+		}
+        landings[l].mPopupText = desc;
+	}
+
+	cables.sort(byWeight);
+    SetupCols(ArraySize(cables));
+    DisplayCablePolysInitial( getObj("active_cables").checked, getObj("future_cables").checked );
+
+    var cf = getObj("checkboxes");
+    cf.style.top = GetWindowSize("h") - 50;
+    cf.style.left = GetWindowSize("w") - 155;
+    cf.style.width = 150;
+    cf.style.height = 44;
+
+    ShowEverything();
+
+    var QS = new Querystring();
+    var showcable = QS.get("c");
+    if (showcable!=null) {
+        if (showcable.length>2) {
+            var sc = cables[showcable];
+            var b = new google.maps.LatLngBounds( new google.maps.LatLng( sc.mBounds[1], sc.mBounds[0] ), new google.maps.LatLng( sc.mBounds[3], sc.mBounds[2] ) );
+            map.fitBounds( b );
+            ShowCable(showcable);
+        }
+    }
+}
+
+function getObj(name) {
+	if (document.getElementById) {
+        return document.getElementById(name);
+	}
+	else if (document.all) {
+		return document.all[name];
+	}
+	else if (document.layers) {
+		return document.layers[name];
+	}
+}
+
+function checkboxes() {
+    ShowEverything();
+    DisplayCablePolys( getObj("active_cables").checked, getObj("future_cables").checked );
+    return true;
+}
+
+function GetWindowSize(dimension) {
+	var myWidth = 0, myHeight = 0;
+	if( typeof( window.innerWidth ) == 'number' ) {
+		//Non-IE
+		myWidth = window.innerWidth;
+		myHeight = window.innerHeight;
+	} else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+		//IE 6+ in 'standards compliant mode'
+		myWidth = document.documentElement.clientWidth;
+		myHeight = document.documentElement.clientHeight;
+	} else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+		//IE 4 compatible
+		myWidth = document.body.clientWidth;
+		myHeight = document.body.clientHeight;
+	}
+	if (dimension=="w") { return myWidth; }
+	if (dimension=="h") { return myHeight; }
+	return 0;
+}
+
+function CheckCableOn() {
+    if (cableOn!="") {
+        ocable = cables[cableOn];
+        for (var l=0;l<ocable.mControl.length;l++) {
+            ocable.mControl[l].set("strokeColor", ocable.mColour);
+            ocable.mControl[l].set("strokeOpacity", 0.5);
+            ocable.mControl[l].set("strokeWeight", ocable.mControlWidth);
+	    }
+        cableOn = "";
+    }
+}
+
+function ShowCable(cablename) {
+    var cable = cables[cablename];
+
+    if (cable.mNotLive && !getObj("future_cables").checked) {
+        getObj("future_cables").checked=true;
+        checkboxes();
+    }
+
+    CheckCableOn();
+
+    for (var l=0;l<cable.mControl.length;l++) {
+        cable.mControl[l].set("strokeColor", cableHi);
+        cable.mControl[l].set("strokeOpacity", 1.0);
+        cable.mControl[l].set("strokeWeight", 6);
+    }
+    cableOn = cablename;
+}
+
+function AllCables(d_live, d_notlive) {
+	var tmp = [];
+	for (var c in cables) tmp.push(c);
+	tmp.sort();
+
+	var txt = "";
+
+	for (var l=0;l<tmp.length;l++) {
+		cable = cables[tmp[l]];
+        var showcable = true;
+        if (cable.mNotLive) {
+            showcable = d_notlive;
+        } else {
+            showcable = d_live;
+        }
+
+        if (fRadio=="after") showcable = (cable.mInService*1 >= fValue*1);
+        if (fRadio=="before") showcable = (cable.mInService*1 < fValue*1) && cable.mInService*1!=0;
+        if (fRadio=="during") showcable = (cable.mInService*1 == fValue*1);
+
+        if (showcable) {
+		    txt += "<div class=detLanding><span class=detHotlink onclick=\"ShowCable('"+cable.mName+"')\">"+cable.mName+"</span></div>";
+        }
+	}
+	return txt;
+}
+
+function ShowEverything() {
+    var showactive = getObj("active_cables").checked;
+    var showfuture = getObj("future_cables").checked;
+
+    if (getObj("active_cables").disabled) {
+        showactive = true;
+        showfuture = true;
+    }
+	AllCables( showactive , showfuture );
+}
 </script>
 </head>
-<body onload="initialize()">
-  <div id="map_canvas"></div>
+
+<body onload="initialize();">
+
+    <div id="map_canvas" style="position:relative; width:100%; height:100%;"></div>
+
+    <div id="checkboxes" style="position:absolute;border:1px solid black;background-color:White;font-size:12px;">
+        <form>
+            <input type=checkbox onclick='checkboxes();' id='active_cables'>
+            Active Cables
+            <br/>
+            <input type=checkbox onclick='checkboxes();' id='future_cables'>
+            Future Cables
+        </form>
+    </div>
+
 </body>
+
 </html>
