@@ -20,7 +20,7 @@ MAP_MARKER="""
 """
 
 MAP_LINE="""
-    var L$num = [ new google.maps.LatLng($e_ll), new google.maps.LatLng($r_ll)];
+    var L$num = [ new google.maps.LatLng($e_ll), new google.maps.LatLng($d_ll)];
     var P$num = new google.maps.Polyline({ path: L$num, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P$num.setMap(map);
 """
@@ -36,14 +36,14 @@ def haversine(lat1, lon1, lat2, lon2):
     return km
 
 class Entry:
-    def __init__(self, code, name, lat, lon, tag=None, region=None):
+    def __init__(self, code, name, lat, lon, tag=None, datacenter=None):
         self.code = code
         self.name = name
         self.lat = lat
         self.lon = lon
 
         self.tag = tag
-        self.region = region
+        self.datacenter = datacenter
 
     @property
     def latlon(self):
@@ -52,34 +52,34 @@ class Entry:
 
 class Entries(dict):
     def __init__(self):
-        self.regions = {}
+        self.datacenters = {}
 
-    def _get_closest_region(self, lat, lon):
-        """returns closest region using haversine formula"""
+    def _get_closest_datacenter(self, lat, lon):
+        """returns closest regional datacenter using haversine formula"""
         distances = {}
-        for name, region in self.regions.items():
-            distance = haversine(lat, lon, region.lat, region.lon)
+        for name, datacenter in self.datacenters.items():
+            distance = haversine(lat, lon, datacenter.lat, datacenter.lon)
             distances[distance] = name
 
         return distances[min(distances.keys())]
 
-    def add_region(self, code, name, lat, lon):
+    def add_datacenter(self, code, name, lat, lon):
         """add a regional datacenter"""
-        self.regions[code] = Entry(code, name, lat, lon)
+        self.datacenters[code] = Entry(code, name, lat, lon)
 
     def add_entry(self, code, name, lat, lon, tag=""):
         """add an entry"""
         codetag = "-".join([code, tag])
-        region = self._get_closest_region(lat, lon)
-        self[codetag] = Entry(code, name, lat, lon, tag, region)
+        datacenter = self._get_closest_datacenter(lat, lon)
+        self[codetag] = Entry(code, name, lat, lon, tag, datacenter)
 
-    def override_entry(self, code, name, tag, region):
-        """override an entries region or create a new one"""
+    def override_entry(self, code, name, tag, datacenter):
+        """override an entries datacenter or create a new one"""
         codetag = "-".join([code, tag])
         if self.has_key(codetag):
-            self[codetag].region = region
+            self[codetag].datacenter = datacenter
         else:
-            self[codetag] = Entry(code, name, None, None, tag, region)
+            self[codetag] = Entry(code, name, None, None, tag, datacenter)
 
     def write_index(self, tag, filepath):
         """generate index of entries with tag at filepath"""
@@ -87,7 +87,7 @@ class Entries(dict):
 
         for entry in self:
             if entry.tag == tag:
-                print >>fd, "%s;%s;%s" % (entry.code, entry.name, entry.region)
+                print >>fd, "%s;%s;%s" % (entry.code, entry.name, entry.datacenter)
 
         fd.close()
 
@@ -99,10 +99,10 @@ class Entries(dict):
         n = 0
         markers = []
         marker = Template(MAP_MARKER)
-        for r in self.regions.values():
+        for d in self.datacenters.values():
             n += 1
-            title = "%s (%s)" % (r.name, r.code)
-            markers.append(marker.substitute(num=n, latlon=r.latlon, title=title))
+            title = "%s (%s)" % (d.name, d.code)
+            markers.append(marker.substitute(num=n, latlon=d.latlon, title=title))
 
         # lines
         n = 0
@@ -111,8 +111,8 @@ class Entries(dict):
         for e in self.values():
             if not e.lon: continue
             n += 1
-            r = self.regions[e.region]
-            lines.append(line.substitute(num=n, e_ll=e.latlon, r_ll=r.latlon))
+            d = self.datacenters[e.datacenter]
+            lines.append(line.substitute(num=n, e_ll=e.latlon, d_ll=d.latlon))
 
         html = t.substitute( CABLES=file(cables).read(),
                              MARKERS="\n".join(markers),
@@ -129,9 +129,9 @@ class Entries(dict):
 def main():
     entries = Entries()
 
-    for line in file("input/regions").readlines():
+    for line in file("input/datacenters").readlines():
         code, name, lat, lon = line.rstrip().split(";")
-        entries.add_region(code, name, float(lat), float(lon))
+        entries.add_datacenter(code, name, float(lat), float(lon))
 
     for filepath in ("input/countries", "input/usa"):
         tag = os.path.basename(filepath)
@@ -140,8 +140,8 @@ def main():
             entries.add_entry(code, name, float(lat), float(lon), tag)
 
     for line in file("input/overrides").readlines():
-        code, tag, name, region = line.rstrip().split(";")
-        entries.override_entry(code, name, tag, region)
+        code, tag, name, datacenter = line.rstrip().split(";")
+        entries.override_entry(code, name, tag, datacenter)
 
     entries.write_index("usa", "output/usa.index")
     entries.write_index("countries", "output/countries.index")
