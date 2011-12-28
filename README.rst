@@ -1,5 +1,5 @@
-GeoIP AWS Regions mapping
-=========================
+AWS Regional Data Centers mapping
+=================================
 
 This project is used to generate the indexes (and visual map for
 reference) used by the `TurnKey Hub`__ to find the closest AWS data
