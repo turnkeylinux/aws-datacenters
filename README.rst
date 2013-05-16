@@ -5,7 +5,7 @@ This project is used to generate the indexes (and `visual map`_ for
 reference) used by the `TurnKey Hub`_ to find the closest AWS data
 center for a user.
 
-.. _visual map: http://turnkeylinux.github.com/aws-datacenters
+.. _visual map: http://turnkeylinux.github.io/aws-datacenters
 .. _TurnKey Hub: https://hub.turnkeylinux.org/
 
 References:
