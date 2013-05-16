@@ -17,19 +17,6 @@ LS;countries;Lesotho;ap-southeast-1
 ZA;countries;South Africa;ap-southeast-1
 VE;countries;Venezuela;sa-east-1
 CO;countries;Colombia;sa-east-1
-AU;countries;Australia;us-west-1
-NZ;countries;New Zealand;us-west-1
-NC;countries;New Caledonia;us-west-1
-VU;countries;Vanuatu;us-west-1
-FJ;countries;Fiji;us-west-1
-TO;countries;Tonga;us-west-1
-NU;countries;Niue;us-west-1
-WS;countries;Samoa;us-west-1
-AS;countries;American Samoa;us-west-1
-TK;countries;Tokelau;us-west-1
-TV;countries;Tuvalu;us-west-1
-NF;countries;Norfolk Island;us-west-1
-WF;countries;Wallis and Futuna;us-west-1
 AA;usa;Armed Forces Americas;us-east-1
 AE;usa;Armed Forces Europe, Middle East, & Canada;us-east-1
 AP;usa;Armed Forces Pacific;us-east-1
