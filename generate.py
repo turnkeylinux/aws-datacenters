@@ -130,7 +130,10 @@ class Entries(dict):
         for e in self.values():
             if not e.lon: continue
             n += 1
-            d = self.datacenters[e.datacenter.split(',')[0]]
+            try:
+                d = self.datacenters[e.datacenter.split(',')[0]]
+            except KeyError:
+                d = self.datacenters.values()[0]
             lines.append(line.substitute(num=n, e_ll=e.latlon, d_ll=d.latlon))
 
         html = t.substitute( CABLES=file(cables).read(),
