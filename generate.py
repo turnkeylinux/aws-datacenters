@@ -61,7 +61,22 @@ class Entries(dict):
             distance = haversine(lat, lon, datacenter.lat, datacenter.lon)
             distances[distance] = name
 
-        return distances[min(distances.keys())]
+        _distances = []
+        for dist in sorted(distances):
+            _distances.append(distances[dist])
+
+        return ",".join(_distances)
+
+    def _get_datacenters(self, override = None):
+        """returns list of datacenters, if override passed it will be the first one"""
+        dcs = self.datacenters.keys()
+
+        if not override:
+          return dcs
+        else:
+          dcs = [x for x in dcs if x != override]
+          dcs.insert(0, override)
+          return dcs
 
     def add_datacenter(self, code, name, lat, lon):
         """add a regional datacenter"""
@@ -81,13 +96,17 @@ class Entries(dict):
         else:
             self[codetag] = Entry(code, name, None, None, tag, datacenter)
 
-    def write_index(self, tag, filepath):
+    def write_index(self, tag, filepath, with_alternatives = False):
         """generate index of entries with tag at filepath"""
         fd = open(filepath, 'w')
 
         for entry in self:
             if entry.tag == tag:
-                print >>fd, "%s;%s;%s" % (entry.code, entry.name, entry.datacenter)
+                if not with_alternatives:
+                    datacenter = entry.datacenter.split(',')[0]
+                else:
+                    datacenter = entry.datacenter
+                print >>fd, "%s;%s;%s" % (entry.code, entry.name, datacenter)
 
         fd.close()
 
@@ -111,7 +130,7 @@ class Entries(dict):
         for e in self.values():
             if not e.lon: continue
             n += 1
-            d = self.datacenters[e.datacenter]
+            d = self.datacenters[e.datacenter.split(',')[0]]
             lines.append(line.substitute(num=n, e_ll=e.latlon, d_ll=d.latlon))
 
         html = t.substitute( CABLES=file(cables).read(),
@@ -141,10 +160,15 @@ def main():
 
     for line in file("input/overrides").readlines():
         code, tag, name, datacenter = line.rstrip().split(";")
+        datacenter = ",".join(entries._get_datacenters(datacenter))
         entries.override_entry(code, name, tag, datacenter)
 
     entries.write_index("usa", "output/usa.index")
     entries.write_index("countries", "output/countries.index")
+
+    entries.write_index("usa", "output/usa-alternatives.index", with_alternatives = True)
+    entries.write_index("countries", "output/countries-alternatives.index", with_alternatives = True)
+
     entries.write_map("input/map.html.tmpl", "input/cables", "output/map.html")
 
 
