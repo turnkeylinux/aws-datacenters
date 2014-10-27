@@ -149,6 +149,7 @@ def main():
     entries = Entries()
 
     for line in file("input/datacenters").readlines():
+        if line.startswith('#'): continue
         code, name, lat, lon = line.rstrip().split(";")
         entries.add_datacenter(code, name, float(lat), float(lon))
 
