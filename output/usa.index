@@ -12,9 +12,9 @@ DC;District of Columbia;us-east-1
 DE;Delaware;us-east-1
 FL;Florida;us-east-1
 GA;Georgia;us-east-1
-HI;Hawaii;us-west-2
+HI;Hawaii;us-west-1
 IA;Iowa;us-east-2
-ID;Idaho;us-west-1
+ID;Idaho;us-west-2
 IL;Illinois;us-east-2
 IN;Indiana;us-east-2
 KS;Kansas;us-east-2
@@ -27,7 +27,7 @@ MI;Michigan;us-east-2
 MN;Minnesota;us-east-2
 MO;Missouri;us-east-2
 MS;Mississippi;us-east-2
-MT;Montana;us-west-1
+MT;Montana;us-west-2
 NC;North Carolina;us-east-1
 ND;North Dakota;us-east-2
 NE;Nebraska;us-east-2
