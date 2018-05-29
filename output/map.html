@@ -4,7 +4,7 @@
 <head>
 <title>AWS Regional Data Centers mapping</title>
 
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
 var map = null;
 var mode = "idle";
@@ -1104,70 +1104,126 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
 
     
     var M1 = new google.maps.Marker({
-      position: new google.maps.LatLng(38.13, -78.45),
+      position: new google.maps.LatLng(19.08, 72.88),
       map: map,
-      title:"Virginia (us-east-1)"
+      title:"Mumbai (ap-south-1)"
     });
     M1.setMap(map);
 
 
     var M2 = new google.maps.Marker({
-      position: new google.maps.LatLng(35.41, 139.42),
+      position: new google.maps.LatLng(38.13, -78.45),
       map: map,
-      title:"Tokyo (ap-northeast-1)"
+      title:"Virginia (us-east-1)"
     });
     M2.setMap(map);
 
 
     var M3 = new google.maps.Marker({
-      position: new google.maps.LatLng(-23.34, -46.38),
+      position: new google.maps.LatLng(39.96, -83.0),
       map: map,
-      title:"Sao Paulo (sa-east-1)"
+      title:"Ohio (us-east-2)"
     });
     M3.setMap(map);
 
 
     var M4 = new google.maps.Marker({
-      position: new google.maps.LatLng(1.37, 103.8),
+      position: new google.maps.LatLng(35.41, 139.42),
       map: map,
-      title:"Singapore (ap-southeast-1)"
+      title:"Tokyo (ap-northeast-1)"
     });
     M4.setMap(map);
 
 
     var M5 = new google.maps.Marker({
-      position: new google.maps.LatLng(-33.86, 151.2),
+      position: new google.maps.LatLng(-23.34, -46.38),
       map: map,
-      title:"Sydney (ap-southeast-2)"
+      title:"Sao Paulo (sa-east-1)"
     });
     M5.setMap(map);
 
 
     var M6 = new google.maps.Marker({
-      position: new google.maps.LatLng(46.15, -123.88),
+      position: new google.maps.LatLng(37.56, 126.98),
       map: map,
-      title:"Oregon (us-west-2)"
+      title:"Seoul (ap-northeast-2)"
     });
     M6.setMap(map);
 
 
     var M7 = new google.maps.Marker({
-      position: new google.maps.LatLng(41.48, -120.53),
+      position: new google.maps.LatLng(1.37, 103.8),
       map: map,
-      title:"California (us-west-1)"
+      title:"Singapore (ap-southeast-1)"
     });
     M7.setMap(map);
 
 
     var M8 = new google.maps.Marker({
+      position: new google.maps.LatLng(45.5, -73.6),
+      map: map,
+      title:"Canada Central (ca-central-1)"
+    });
+    M8.setMap(map);
+
+
+    var M9 = new google.maps.Marker({
+      position: new google.maps.LatLng(-33.86, 151.2),
+      map: map,
+      title:"Sydney (ap-southeast-2)"
+    });
+    M9.setMap(map);
+
+
+    var M10 = new google.maps.Marker({
+      position: new google.maps.LatLng(46.15, -123.88),
+      map: map,
+      title:"Oregon (us-west-2)"
+    });
+    M10.setMap(map);
+
+
+    var M11 = new google.maps.Marker({
+      position: new google.maps.LatLng(41.48, -120.53),
+      map: map,
+      title:"California (us-west-1)"
+    });
+    M11.setMap(map);
+
+
+    var M12 = new google.maps.Marker({
+      position: new google.maps.LatLng(50.0, 8.0),
+      map: map,
+      title:"Frankfurt (eu-central-1)"
+    });
+    M12.setMap(map);
+
+
+    var M13 = new google.maps.Marker({
       position: new google.maps.LatLng(53.0, -8.0),
       map: map,
       title:"Ireland (eu-west-1)"
     });
-    M8.setMap(map);
+    M13.setMap(map);
+
+
+    var M14 = new google.maps.Marker({
+      position: new google.maps.LatLng(51.0, -0.1),
+      map: map,
+      title:"London (eu-west-2)"
+    });
+    M14.setMap(map);
+
+
+    var M15 = new google.maps.Marker({
+      position: new google.maps.LatLng(48.86, 2.35),
+      map: map,
+      title:"Paris (eu-west-3)"
+    });
+    M15.setMap(map);
 
     
-    var L1 = [ new google.maps.LatLng(-2.0, 30.0), new google.maps.LatLng(53.0, -8.0)];
+    var L1 = [ new google.maps.LatLng(-2.0, 30.0), new google.maps.LatLng(19.08, 72.88)];
     var P1 = new google.maps.Polyline({ path: L1, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P1.setMap(map);
 
@@ -1182,12 +1238,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P3.setMap(map);
 
 
-    var L4 = [ new google.maps.LatLng(40.0, 45.0), new google.maps.LatLng(53.0, -8.0)];
+    var L4 = [ new google.maps.LatLng(40.0, 45.0), new google.maps.LatLng(50.0, 8.0)];
     var P4 = new google.maps.Polyline({ path: L4, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P4.setMap(map);
 
 
-    var L5 = [ new google.maps.LatLng(0.0, 25.0), new google.maps.LatLng(53.0, -8.0)];
+    var L5 = [ new google.maps.LatLng(0.0, 25.0), new google.maps.LatLng(19.08, 72.88)];
     var P5 = new google.maps.Polyline({ path: L5, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P5.setMap(map);
 
@@ -1197,12 +1253,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P6.setMap(map);
 
 
-    var L7 = [ new google.maps.LatLng(38.0, -97.0), new google.maps.LatLng(38.13, -78.45)];
+    var L7 = [ new google.maps.LatLng(38.0, -97.0), new google.maps.LatLng(39.96, -83.0)];
     var P7 = new google.maps.Polyline({ path: L7, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P7.setMap(map);
 
 
-    var L8 = [ new google.maps.LatLng(39.38, -86.5), new google.maps.LatLng(38.13, -78.45)];
+    var L8 = [ new google.maps.LatLng(39.38, -86.5), new google.maps.LatLng(39.96, -83.0)];
     var P8 = new google.maps.Polyline({ path: L8, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P8.setMap(map);
 
@@ -1212,12 +1268,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P9.setMap(map);
 
 
-    var L10 = [ new google.maps.LatLng(52.5, 5.75), new google.maps.LatLng(53.0, -8.0)];
+    var L10 = [ new google.maps.LatLng(52.5, 5.75), new google.maps.LatLng(50.0, 8.0)];
     var P10 = new google.maps.Polyline({ path: L10, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P10.setMap(map);
 
 
-    var L11 = [ new google.maps.LatLng(41.0, 64.0), new google.maps.LatLng(53.0, -8.0)];
+    var L11 = [ new google.maps.LatLng(41.0, 64.0), new google.maps.LatLng(19.08, 72.88)];
     var P11 = new google.maps.Polyline({ path: L11, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P11.setMap(map);
 
@@ -1227,7 +1283,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P12.setMap(map);
 
 
-    var L13 = [ new google.maps.LatLng(32.0, 35.25), new google.maps.LatLng(53.0, -8.0)];
+    var L13 = [ new google.maps.LatLng(32.0, 35.25), new google.maps.LatLng(50.0, 8.0)];
     var P13 = new google.maps.Polyline({ path: L13, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P13.setMap(map);
 
@@ -1242,17 +1298,17 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P15.setMap(map);
 
 
-    var L16 = [ new google.maps.LatLng(8.0, -2.0), new google.maps.LatLng(53.0, -8.0)];
+    var L16 = [ new google.maps.LatLng(8.0, -2.0), new google.maps.LatLng(48.86, 2.35)];
     var P16 = new google.maps.Polyline({ path: L16, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P16.setMap(map);
 
 
-    var L17 = [ new google.maps.LatLng(8.0, 38.0), new google.maps.LatLng(53.0, -8.0)];
+    var L17 = [ new google.maps.LatLng(8.0, 38.0), new google.maps.LatLng(19.08, 72.88)];
     var P17 = new google.maps.Polyline({ path: L17, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P17.setMap(map);
 
 
-    var L18 = [ new google.maps.LatLng(31.38, -92.3), new google.maps.LatLng(38.13, -78.45)];
+    var L18 = [ new google.maps.LatLng(31.38, -92.3), new google.maps.LatLng(39.96, -83.0)];
     var P18 = new google.maps.Polyline({ path: L18, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P18.setMap(map);
 
@@ -1262,7 +1318,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P19.setMap(map);
 
 
-    var L20 = [ new google.maps.LatLng(35.0, 33.0), new google.maps.LatLng(53.0, -8.0)];
+    var L20 = [ new google.maps.LatLng(35.0, 33.0), new google.maps.LatLng(50.0, 8.0)];
     var P20 = new google.maps.Polyline({ path: L20, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P20.setMap(map);
 
@@ -1277,27 +1333,27 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P22.setMap(map);
 
 
-    var L23 = [ new google.maps.LatLng(20.0, -12.0), new google.maps.LatLng(53.0, -8.0)];
+    var L23 = [ new google.maps.LatLng(20.0, -12.0), new google.maps.LatLng(48.86, 2.35)];
     var P23 = new google.maps.Polyline({ path: L23, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P23.setMap(map);
 
 
-    var L24 = [ new google.maps.LatLng(-12.17, 44.25), new google.maps.LatLng(1.37, 103.8)];
+    var L24 = [ new google.maps.LatLng(-12.17, 44.25), new google.maps.LatLng(19.08, 72.88)];
     var P24 = new google.maps.Polyline({ path: L24, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P24.setMap(map);
 
 
-    var L25 = [ new google.maps.LatLng(47.0, 8.0), new google.maps.LatLng(53.0, -8.0)];
+    var L25 = [ new google.maps.LatLng(47.0, 8.0), new google.maps.LatLng(50.0, 8.0)];
     var P25 = new google.maps.Polyline({ path: L25, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P25.setMap(map);
 
 
-    var L26 = [ new google.maps.LatLng(31.0, 36.0), new google.maps.LatLng(53.0, -8.0)];
+    var L26 = [ new google.maps.LatLng(31.0, 36.0), new google.maps.LatLng(50.0, 8.0)];
     var P26 = new google.maps.Polyline({ path: L26, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P26.setMap(map);
 
 
-    var L27 = [ new google.maps.LatLng(37.67, -95.48), new google.maps.LatLng(38.13, -78.45)];
+    var L27 = [ new google.maps.LatLng(37.67, -95.48), new google.maps.LatLng(39.96, -83.0)];
     var P27 = new google.maps.Polyline({ path: L27, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P27.setMap(map);
 
@@ -1312,12 +1368,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P29.setMap(map);
 
 
-    var L30 = [ new google.maps.LatLng(35.0, 38.0), new google.maps.LatLng(53.0, -8.0)];
+    var L30 = [ new google.maps.LatLng(35.0, 38.0), new google.maps.LatLng(50.0, 8.0)];
     var P30 = new google.maps.Polyline({ path: L30, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P30.setMap(map);
 
 
-    var L31 = [ new google.maps.LatLng(24.5, -13.0), new google.maps.LatLng(53.0, -8.0)];
+    var L31 = [ new google.maps.LatLng(24.5, -13.0), new google.maps.LatLng(48.86, 2.35)];
     var P31 = new google.maps.Polyline({ path: L31, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P31.setMap(map);
 
@@ -1337,7 +1393,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P34.setMap(map);
 
 
-    var L35 = [ new google.maps.LatLng(35.97, -89.95), new google.maps.LatLng(38.13, -78.45)];
+    var L35 = [ new google.maps.LatLng(35.97, -89.95), new google.maps.LatLng(39.96, -83.0)];
     var P35 = new google.maps.Polyline({ path: L35, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P35.setMap(map);
 
@@ -1347,22 +1403,22 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P36.setMap(map);
 
 
-    var L37 = [ new google.maps.LatLng(-12.83, 45.17), new google.maps.LatLng(1.37, 103.8)];
+    var L37 = [ new google.maps.LatLng(-13.3, -176.2), new google.maps.LatLng(-33.86, 151.2)];
     var P37 = new google.maps.Polyline({ path: L37, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P37.setMap(map);
 
 
-    var L38 = [ new google.maps.LatLng(-18.25, 35.0), new google.maps.LatLng(1.37, 103.8)];
+    var L38 = [ new google.maps.LatLng(-18.25, 35.0), new google.maps.LatLng(19.08, 72.88)];
     var P38 = new google.maps.Polyline({ path: L38, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P38.setMap(map);
 
 
-    var L39 = [ new google.maps.LatLng(44.47, -73.15), new google.maps.LatLng(38.13, -78.45)];
+    var L39 = [ new google.maps.LatLng(44.47, -73.15), new google.maps.LatLng(45.5, -73.6)];
     var P39 = new google.maps.Polyline({ path: L39, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P39.setMap(map);
 
 
-    var L40 = [ new google.maps.LatLng(28.0, 84.0), new google.maps.LatLng(1.37, 103.8)];
+    var L40 = [ new google.maps.LatLng(28.0, 84.0), new google.maps.LatLng(19.08, 72.88)];
     var P40 = new google.maps.Polyline({ path: L40, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P40.setMap(map);
 
@@ -1372,7 +1428,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P41.setMap(map);
 
 
-    var L42 = [ new google.maps.LatLng(28.0, 3.0), new google.maps.LatLng(53.0, -8.0)];
+    var L42 = [ new google.maps.LatLng(28.0, 3.0), new google.maps.LatLng(48.86, 2.35)];
     var P42 = new google.maps.Polyline({ path: L42, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P42.setMap(map);
 
@@ -1382,12 +1438,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P43.setMap(map);
 
 
-    var L44 = [ new google.maps.LatLng(9.5, 2.25), new google.maps.LatLng(53.0, -8.0)];
+    var L44 = [ new google.maps.LatLng(9.5, 2.25), new google.maps.LatLng(48.86, 2.35)];
     var P44 = new google.maps.Polyline({ path: L44, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P44.setMap(map);
 
 
-    var L45 = [ new google.maps.LatLng(22.25, 114.17), new google.maps.LatLng(1.37, 103.8)];
+    var L45 = [ new google.maps.LatLng(22.25, 114.17), new google.maps.LatLng(37.56, 126.98)];
     var P45 = new google.maps.Polyline({ path: L45, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P45.setMap(map);
 
@@ -1402,7 +1458,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P47.setMap(map);
 
 
-    var L48 = [ new google.maps.LatLng(7.0, 81.0), new google.maps.LatLng(1.37, 103.8)];
+    var L48 = [ new google.maps.LatLng(7.0, 81.0), new google.maps.LatLng(19.08, 72.88)];
     var P48 = new google.maps.Polyline({ path: L48, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P48.setMap(map);
 
@@ -1412,12 +1468,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P49.setMap(map);
 
 
-    var L50 = [ new google.maps.LatLng(34.67, -99.27), new google.maps.LatLng(38.13, -78.45)];
+    var L50 = [ new google.maps.LatLng(34.67, -99.27), new google.maps.LatLng(39.96, -83.0)];
     var P50 = new google.maps.Polyline({ path: L50, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P50.setMap(map);
 
 
-    var L51 = [ new google.maps.LatLng(32.0, -5.0), new google.maps.LatLng(53.0, -8.0)];
+    var L51 = [ new google.maps.LatLng(32.0, -5.0), new google.maps.LatLng(48.86, 2.35)];
     var P51 = new google.maps.Polyline({ path: L51, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P51.setMap(map);
 
@@ -1437,7 +1493,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P54.setMap(map);
 
 
-    var L55 = [ new google.maps.LatLng(49.75, 6.17), new google.maps.LatLng(53.0, -8.0)];
+    var L55 = [ new google.maps.LatLng(49.75, 6.17), new google.maps.LatLng(50.0, 8.0)];
     var P55 = new google.maps.Polyline({ path: L55, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P55.setMap(map);
 
@@ -1462,7 +1518,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P59.setMap(map);
 
 
-    var L60 = [ new google.maps.LatLng(43.68, -93.37), new google.maps.LatLng(38.13, -78.45)];
+    var L60 = [ new google.maps.LatLng(43.68, -93.37), new google.maps.LatLng(39.96, -83.0)];
     var P60 = new google.maps.Polyline({ path: L60, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P60.setMap(map);
 
@@ -1477,7 +1533,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P62.setMap(map);
 
 
-    var L63 = [ new google.maps.LatLng(-20.28, 57.55), new google.maps.LatLng(1.37, 103.8)];
+    var L63 = [ new google.maps.LatLng(-20.28, 57.55), new google.maps.LatLng(19.08, 72.88)];
     var P63 = new google.maps.Polyline({ path: L63, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P63.setMap(map);
 
@@ -1487,17 +1543,17 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P64.setMap(map);
 
 
-    var L65 = [ new google.maps.LatLng(7.0, 21.0), new google.maps.LatLng(53.0, -8.0)];
+    var L65 = [ new google.maps.LatLng(7.0, 21.0), new google.maps.LatLng(50.0, 8.0)];
     var P65 = new google.maps.Polyline({ path: L65, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P65.setMap(map);
 
 
-    var L66 = [ new google.maps.LatLng(10.0, 8.0), new google.maps.LatLng(53.0, -8.0)];
+    var L66 = [ new google.maps.LatLng(10.0, 8.0), new google.maps.LatLng(48.86, 2.35)];
     var P66 = new google.maps.Polyline({ path: L66, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P66.setMap(map);
 
 
-    var L67 = [ new google.maps.LatLng(6.0, 12.0), new google.maps.LatLng(53.0, -8.0)];
+    var L67 = [ new google.maps.LatLng(6.0, 12.0), new google.maps.LatLng(48.86, 2.35)];
     var P67 = new google.maps.Polyline({ path: L67, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P67.setMap(map);
 
@@ -1512,7 +1568,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P69.setMap(map);
 
 
-    var L70 = [ new google.maps.LatLng(33.0, 65.0), new google.maps.LatLng(1.37, 103.8)];
+    var L70 = [ new google.maps.LatLng(33.0, 65.0), new google.maps.LatLng(19.08, 72.88)];
     var P70 = new google.maps.Polyline({ path: L70, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P70.setMap(map);
 
@@ -1537,12 +1593,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P74.setMap(map);
 
 
-    var L75 = [ new google.maps.LatLng(25.0, 17.0), new google.maps.LatLng(53.0, -8.0)];
+    var L75 = [ new google.maps.LatLng(25.0, 17.0), new google.maps.LatLng(50.0, 8.0)];
     var P75 = new google.maps.Polyline({ path: L75, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P75.setMap(map);
 
 
-    var L76 = [ new google.maps.LatLng(46.77, -100.75), new google.maps.LatLng(41.48, -120.53)];
+    var L76 = [ new google.maps.LatLng(46.77, -100.75), new google.maps.LatLng(39.96, -83.0)];
     var P76 = new google.maps.Polyline({ path: L76, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P76.setMap(map);
 
@@ -1552,7 +1608,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P77.setMap(map);
 
 
-    var L78 = [ new google.maps.LatLng(49.75, 15.5), new google.maps.LatLng(53.0, -8.0)];
+    var L78 = [ new google.maps.LatLng(49.75, 15.5), new google.maps.LatLng(50.0, 8.0)];
     var P78 = new google.maps.Polyline({ path: L78, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P78.setMap(map);
 
@@ -1562,22 +1618,22 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P79.setMap(map);
 
 
-    var L80 = [ new google.maps.LatLng(43.73, 7.4), new google.maps.LatLng(53.0, -8.0)];
+    var L80 = [ new google.maps.LatLng(43.73, 7.4), new google.maps.LatLng(48.86, 2.35)];
     var P80 = new google.maps.Polyline({ path: L80, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P80.setMap(map);
 
 
-    var L81 = [ new google.maps.LatLng(59.0, 26.0), new google.maps.LatLng(53.0, -8.0)];
+    var L81 = [ new google.maps.LatLng(59.0, 26.0), new google.maps.LatLng(50.0, 8.0)];
     var P81 = new google.maps.Polyline({ path: L81, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P81.setMap(map);
 
 
-    var L82 = [ new google.maps.LatLng(8.0, -5.0), new google.maps.LatLng(53.0, -8.0)];
+    var L82 = [ new google.maps.LatLng(8.0, -5.0), new google.maps.LatLng(48.86, 2.35)];
     var P82 = new google.maps.Polyline({ path: L82, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P82.setMap(map);
 
 
-    var L83 = [ new google.maps.LatLng(33.83, 35.83), new google.maps.LatLng(53.0, -8.0)];
+    var L83 = [ new google.maps.LatLng(33.83, 35.83), new google.maps.LatLng(50.0, 8.0)];
     var P83 = new google.maps.Polyline({ path: L83, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P83.setMap(map);
 
@@ -1587,7 +1643,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P84.setMap(map);
 
 
-    var L85 = [ new google.maps.LatLng(23.0, -102.0), new google.maps.LatLng(41.48, -120.53)];
+    var L85 = [ new google.maps.LatLng(23.0, -102.0), new google.maps.LatLng(39.96, -83.0)];
     var P85 = new google.maps.Polyline({ path: L85, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P85.setMap(map);
 
@@ -1597,7 +1653,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P86.setMap(map);
 
 
-    var L87 = [ new google.maps.LatLng(15.0, 39.0), new google.maps.LatLng(53.0, -8.0)];
+    var L87 = [ new google.maps.LatLng(15.0, 39.0), new google.maps.LatLng(19.08, 72.88)];
     var P87 = new google.maps.Polyline({ path: L87, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P87.setMap(map);
 
@@ -1617,7 +1673,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P90.setMap(map);
 
 
-    var L91 = [ new google.maps.LatLng(8.5, -11.5), new google.maps.LatLng(53.0, -8.0)];
+    var L91 = [ new google.maps.LatLng(8.5, -11.5), new google.maps.LatLng(48.86, 2.35)];
     var P91 = new google.maps.Polyline({ path: L91, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P91.setMap(map);
 
@@ -1632,7 +1688,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P93.setMap(map);
 
 
-    var L94 = [ new google.maps.LatLng(57.0, 25.0), new google.maps.LatLng(53.0, -8.0)];
+    var L94 = [ new google.maps.LatLng(57.0, 25.0), new google.maps.LatLng(50.0, 8.0)];
     var P94 = new google.maps.Polyline({ path: L94, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P94.setMap(map);
 
@@ -1642,17 +1698,17 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P95.setMap(map);
 
 
-    var L96 = [ new google.maps.LatLng(36.97, -86.43), new google.maps.LatLng(38.13, -78.45)];
+    var L96 = [ new google.maps.LatLng(36.97, -86.43), new google.maps.LatLng(39.96, -83.0)];
     var P96 = new google.maps.Polyline({ path: L96, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P96.setMap(map);
 
 
-    var L97 = [ new google.maps.LatLng(-3.5, 30.0), new google.maps.LatLng(53.0, -8.0)];
+    var L97 = [ new google.maps.LatLng(-3.5, 30.0), new google.maps.LatLng(19.08, 72.88)];
     var P97 = new google.maps.Polyline({ path: L97, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P97.setMap(map);
 
 
-    var L98 = [ new google.maps.LatLng(10.0, 49.0), new google.maps.LatLng(1.37, 103.8)];
+    var L98 = [ new google.maps.LatLng(10.0, 49.0), new google.maps.LatLng(19.08, 72.88)];
     var P98 = new google.maps.Polyline({ path: L98, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P98.setMap(map);
 
@@ -1662,12 +1718,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P99.setMap(map);
 
 
-    var L100 = [ new google.maps.LatLng(25.0, 45.0), new google.maps.LatLng(53.0, -8.0)];
+    var L100 = [ new google.maps.LatLng(25.0, 45.0), new google.maps.LatLng(19.08, 72.88)];
     var P100 = new google.maps.Polyline({ path: L100, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P100.setMap(map);
 
 
-    var L101 = [ new google.maps.LatLng(35.0, 105.0), new google.maps.LatLng(35.41, 139.42)];
+    var L101 = [ new google.maps.LatLng(35.0, 105.0), new google.maps.LatLng(37.56, 126.98)];
     var P101 = new google.maps.Polyline({ path: L101, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P101.setMap(map);
 
@@ -1677,7 +1733,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P102.setMap(map);
 
 
-    var L103 = [ new google.maps.LatLng(62.0, 15.0), new google.maps.LatLng(53.0, -8.0)];
+    var L103 = [ new google.maps.LatLng(62.0, 15.0), new google.maps.LatLng(50.0, 8.0)];
     var P103 = new google.maps.Polyline({ path: L103, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P103.setMap(map);
 
@@ -1687,7 +1743,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P104.setMap(map);
 
 
-    var L105 = [ new google.maps.LatLng(12.0, -15.0), new google.maps.LatLng(53.0, -8.0)];
+    var L105 = [ new google.maps.LatLng(12.0, -15.0), new google.maps.LatLng(48.86, 2.35)];
     var P105 = new google.maps.Polyline({ path: L105, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P105.setMap(map);
 
@@ -1697,17 +1753,17 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P106.setMap(map);
 
 
-    var L107 = [ new google.maps.LatLng(53.0, 28.0), new google.maps.LatLng(53.0, -8.0)];
+    var L107 = [ new google.maps.LatLng(53.0, 28.0), new google.maps.LatLng(50.0, 8.0)];
     var P107 = new google.maps.Polyline({ path: L107, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P107.setMap(map);
 
 
-    var L108 = [ new google.maps.LatLng(49.0, 32.0), new google.maps.LatLng(53.0, -8.0)];
+    var L108 = [ new google.maps.LatLng(49.0, 32.0), new google.maps.LatLng(50.0, 8.0)];
     var P108 = new google.maps.Polyline({ path: L108, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P108.setMap(map);
 
 
-    var L109 = [ new google.maps.LatLng(15.0, 30.0), new google.maps.LatLng(53.0, -8.0)];
+    var L109 = [ new google.maps.LatLng(15.0, 30.0), new google.maps.LatLng(50.0, 8.0)];
     var P109 = new google.maps.Polyline({ path: L109, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P109.setMap(map);
 
@@ -1717,12 +1773,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P110.setMap(map);
 
 
-    var L111 = [ new google.maps.LatLng(32.0, 53.0), new google.maps.LatLng(53.0, -8.0)];
+    var L111 = [ new google.maps.LatLng(32.0, 53.0), new google.maps.LatLng(19.08, 72.88)];
     var P111 = new google.maps.Polyline({ path: L111, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P111.setMap(map);
 
 
-    var L112 = [ new google.maps.LatLng(-13.5, 34.0), new google.maps.LatLng(1.37, 103.8)];
+    var L112 = [ new google.maps.LatLng(-13.5, 34.0), new google.maps.LatLng(19.08, 72.88)];
     var P112 = new google.maps.Polyline({ path: L112, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P112.setMap(map);
 
@@ -1737,47 +1793,47 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P114.setMap(map);
 
 
-    var L115 = [ new google.maps.LatLng(44.58, -71.18), new google.maps.LatLng(38.13, -78.45)];
+    var L115 = [ new google.maps.LatLng(44.58, -71.18), new google.maps.LatLng(45.5, -73.6)];
     var P115 = new google.maps.Polyline({ path: L115, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P115.setMap(map);
 
 
-    var L116 = [ new google.maps.LatLng(47.0, 20.0), new google.maps.LatLng(53.0, -8.0)];
+    var L116 = [ new google.maps.LatLng(47.0, 20.0), new google.maps.LatLng(50.0, 8.0)];
     var P116 = new google.maps.Polyline({ path: L116, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P116.setMap(map);
 
 
-    var L117 = [ new google.maps.LatLng(42.47, -71.28), new google.maps.LatLng(38.13, -78.45)];
+    var L117 = [ new google.maps.LatLng(42.47, -71.28), new google.maps.LatLng(45.5, -73.6)];
     var P117 = new google.maps.Polyline({ path: L117, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P117.setMap(map);
 
 
-    var L118 = [ new google.maps.LatLng(40.5, 47.5), new google.maps.LatLng(53.0, -8.0)];
+    var L118 = [ new google.maps.LatLng(40.5, 47.5), new google.maps.LatLng(50.0, 8.0)];
     var P118 = new google.maps.Polyline({ path: L118, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P118.setMap(map);
 
 
-    var L119 = [ new google.maps.LatLng(46.0, 2.0), new google.maps.LatLng(53.0, -8.0)];
+    var L119 = [ new google.maps.LatLng(46.0, 2.0), new google.maps.LatLng(48.86, 2.35)];
     var P119 = new google.maps.Polyline({ path: L119, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P119.setMap(map);
 
 
-    var L120 = [ new google.maps.LatLng(41.0, 75.0), new google.maps.LatLng(1.37, 103.8)];
+    var L120 = [ new google.maps.LatLng(41.0, 75.0), new google.maps.LatLng(19.08, 72.88)];
     var P120 = new google.maps.Polyline({ path: L120, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P120.setMap(map);
 
 
-    var L121 = [ new google.maps.LatLng(44.0, 21.0), new google.maps.LatLng(53.0, -8.0)];
+    var L121 = [ new google.maps.LatLng(44.0, 21.0), new google.maps.LatLng(50.0, 8.0)];
     var P121 = new google.maps.Polyline({ path: L121, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P121.setMap(map);
 
 
-    var L122 = [ new google.maps.LatLng(42.0, 19.0), new google.maps.LatLng(53.0, -8.0)];
+    var L122 = [ new google.maps.LatLng(42.0, 19.0), new google.maps.LatLng(50.0, 8.0)];
     var P122 = new google.maps.Polyline({ path: L122, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P122.setMap(map);
 
 
-    var L123 = [ new google.maps.LatLng(13.47, -16.57), new google.maps.LatLng(53.0, -8.0)];
+    var L123 = [ new google.maps.LatLng(13.47, -16.57), new google.maps.LatLng(48.86, 2.35)];
     var P123 = new google.maps.Polyline({ path: L123, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P123.setMap(map);
 
@@ -1802,7 +1858,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P127.setMap(map);
 
 
-    var L128 = [ new google.maps.LatLng(48.67, 19.5), new google.maps.LatLng(53.0, -8.0)];
+    var L128 = [ new google.maps.LatLng(48.67, 19.5), new google.maps.LatLng(50.0, 8.0)];
     var P128 = new google.maps.Polyline({ path: L128, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P128.setMap(map);
 
@@ -1812,12 +1868,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P129.setMap(map);
 
 
-    var L130 = [ new google.maps.LatLng(45.45, -98.43), new google.maps.LatLng(41.48, -120.53)];
+    var L130 = [ new google.maps.LatLng(45.45, -98.43), new google.maps.LatLng(39.96, -83.0)];
     var P130 = new google.maps.Polyline({ path: L130, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P130.setMap(map);
 
 
-    var L131 = [ new google.maps.LatLng(41.0, 20.0), new google.maps.LatLng(53.0, -8.0)];
+    var L131 = [ new google.maps.LatLng(41.0, 20.0), new google.maps.LatLng(50.0, 8.0)];
     var P131 = new google.maps.Polyline({ path: L131, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P131.setMap(map);
 
@@ -1827,7 +1883,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P132.setMap(map);
 
 
-    var L133 = [ new google.maps.LatLng(47.17, 9.53), new google.maps.LatLng(53.0, -8.0)];
+    var L133 = [ new google.maps.LatLng(47.17, 9.53), new google.maps.LatLng(50.0, 8.0)];
     var P133 = new google.maps.Polyline({ path: L133, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P133.setMap(map);
 
@@ -1837,7 +1893,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P134.setMap(map);
 
 
-    var L135 = [ new google.maps.LatLng(11.5, 43.0), new google.maps.LatLng(53.0, -8.0)];
+    var L135 = [ new google.maps.LatLng(11.5, 43.0), new google.maps.LatLng(19.08, 72.88)];
     var P135 = new google.maps.Polyline({ path: L135, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P135.setMap(map);
 
@@ -1857,7 +1913,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P138.setMap(map);
 
 
-    var L139 = [ new google.maps.LatLng(1.0, 32.0), new google.maps.LatLng(53.0, -8.0)];
+    var L139 = [ new google.maps.LatLng(1.0, 32.0), new google.maps.LatLng(19.08, 72.88)];
     var P139 = new google.maps.Polyline({ path: L139, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P139.setMap(map);
 
@@ -1882,17 +1938,17 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P143.setMap(map);
 
 
-    var L144 = [ new google.maps.LatLng(30.0, 70.0), new google.maps.LatLng(1.37, 103.8)];
+    var L144 = [ new google.maps.LatLng(30.0, 70.0), new google.maps.LatLng(19.08, 72.88)];
     var P144 = new google.maps.Polyline({ path: L144, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P144.setMap(map);
 
 
-    var L145 = [ new google.maps.LatLng(-4.58, 55.67), new google.maps.LatLng(1.37, 103.8)];
+    var L145 = [ new google.maps.LatLng(-4.58, 55.67), new google.maps.LatLng(19.08, 72.88)];
     var P145 = new google.maps.Polyline({ path: L145, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P145.setMap(map);
 
 
-    var L146 = [ new google.maps.LatLng(51.0, 9.0), new google.maps.LatLng(53.0, -8.0)];
+    var L146 = [ new google.maps.LatLng(51.0, 9.0), new google.maps.LatLng(50.0, 8.0)];
     var P146 = new google.maps.Polyline({ path: L146, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P146.setMap(map);
 
@@ -1907,7 +1963,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P148.setMap(map);
 
 
-    var L149 = [ new google.maps.LatLng(35.0, 105.0), new google.maps.LatLng(35.41, 139.42)];
+    var L149 = [ new google.maps.LatLng(35.0, 105.0), new google.maps.LatLng(37.56, 126.98)];
     var P149 = new google.maps.Polyline({ path: L149, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P149.setMap(map);
 
@@ -1917,12 +1973,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P150.setMap(map);
 
 
-    var L151 = [ new google.maps.LatLng(44.25, -88.52), new google.maps.LatLng(38.13, -78.45)];
+    var L151 = [ new google.maps.LatLng(44.25, -88.52), new google.maps.LatLng(39.96, -83.0)];
     var P151 = new google.maps.Polyline({ path: L151, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P151.setMap(map);
 
 
-    var L152 = [ new google.maps.LatLng(1.0, 38.0), new google.maps.LatLng(53.0, -8.0)];
+    var L152 = [ new google.maps.LatLng(1.0, 38.0), new google.maps.LatLng(19.08, 72.88)];
     var P152 = new google.maps.Polyline({ path: L152, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P152.setMap(map);
 
@@ -1942,22 +1998,22 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P155.setMap(map);
 
 
-    var L156 = [ new google.maps.LatLng(36.18, -5.37), new google.maps.LatLng(53.0, -8.0)];
+    var L156 = [ new google.maps.LatLng(36.18, -5.37), new google.maps.LatLng(48.86, 2.35)];
     var P156 = new google.maps.Polyline({ path: L156, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P156.setMap(map);
 
 
-    var L157 = [ new google.maps.LatLng(3.25, 73.0), new google.maps.LatLng(1.37, 103.8)];
+    var L157 = [ new google.maps.LatLng(3.25, 73.0), new google.maps.LatLng(19.08, 72.88)];
     var P157 = new google.maps.Polyline({ path: L157, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P157.setMap(map);
 
 
-    var L158 = [ new google.maps.LatLng(42.58, -99.98), new google.maps.LatLng(41.48, -120.53)];
+    var L158 = [ new google.maps.LatLng(42.58, -99.98), new google.maps.LatLng(39.96, -83.0)];
     var P158 = new google.maps.Polyline({ path: L158, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P158.setMap(map);
 
 
-    var L159 = [ new google.maps.LatLng(32.42, -99.68), new google.maps.LatLng(38.13, -78.45)];
+    var L159 = [ new google.maps.LatLng(32.42, -99.68), new google.maps.LatLng(39.96, -83.0)];
     var P159 = new google.maps.Polyline({ path: L159, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P159.setMap(map);
 
@@ -1967,7 +2023,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P160.setMap(map);
 
 
-    var L161 = [ new google.maps.LatLng(42.0, 43.5), new google.maps.LatLng(53.0, -8.0)];
+    var L161 = [ new google.maps.LatLng(42.0, 43.5), new google.maps.LatLng(50.0, 8.0)];
     var P161 = new google.maps.Polyline({ path: L161, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P161.setMap(map);
 
@@ -1977,7 +2033,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P162.setMap(map);
 
 
-    var L163 = [ new google.maps.LatLng(29.34, 47.66), new google.maps.LatLng(53.0, -8.0)];
+    var L163 = [ new google.maps.LatLng(29.34, 47.66), new google.maps.LatLng(19.08, 72.88)];
     var P163 = new google.maps.Polyline({ path: L163, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P163.setMap(map);
 
@@ -1987,7 +2043,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P164.setMap(map);
 
 
-    var L165 = [ new google.maps.LatLng(35.83, 14.58), new google.maps.LatLng(53.0, -8.0)];
+    var L165 = [ new google.maps.LatLng(35.83, 14.58), new google.maps.LatLng(50.0, 8.0)];
     var P165 = new google.maps.Polyline({ path: L165, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P165.setMap(map);
 
@@ -2007,12 +2063,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P168.setMap(map);
 
 
-    var L169 = [ new google.maps.LatLng(39.0, 71.0), new google.maps.LatLng(1.37, 103.8)];
+    var L169 = [ new google.maps.LatLng(39.0, 71.0), new google.maps.LatLng(19.08, 72.88)];
     var P169 = new google.maps.Polyline({ path: L169, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P169.setMap(map);
 
 
-    var L170 = [ new google.maps.LatLng(1.0, 7.0), new google.maps.LatLng(53.0, -8.0)];
+    var L170 = [ new google.maps.LatLng(1.0, 7.0), new google.maps.LatLng(48.86, 2.35)];
     var P170 = new google.maps.Polyline({ path: L170, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P170.setMap(map);
 
@@ -2022,17 +2078,17 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P171.setMap(map);
 
 
-    var L172 = [ new google.maps.LatLng(46.0, 25.0), new google.maps.LatLng(53.0, -8.0)];
+    var L172 = [ new google.maps.LatLng(46.0, 25.0), new google.maps.LatLng(50.0, 8.0)];
     var P172 = new google.maps.Polyline({ path: L172, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P172.setMap(map);
 
 
-    var L173 = [ new google.maps.LatLng(21.0, 57.0), new google.maps.LatLng(1.37, 103.8)];
+    var L173 = [ new google.maps.LatLng(21.0, 57.0), new google.maps.LatLng(19.08, 72.88)];
     var P173 = new google.maps.Polyline({ path: L173, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P173.setMap(map);
 
 
-    var L174 = [ new google.maps.LatLng(42.5, 1.5), new google.maps.LatLng(53.0, -8.0)];
+    var L174 = [ new google.maps.LatLng(42.5, 1.5), new google.maps.LatLng(48.86, 2.35)];
     var P174 = new google.maps.Polyline({ path: L174, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P174.setMap(map);
 
@@ -2042,82 +2098,82 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P175.setMap(map);
 
 
-    var L176 = [ new google.maps.LatLng(41.9, 12.45), new google.maps.LatLng(53.0, -8.0)];
+    var L176 = [ new google.maps.LatLng(-12.83, 45.17), new google.maps.LatLng(19.08, 72.88)];
     var P176 = new google.maps.Polyline({ path: L176, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P176.setMap(map);
 
 
-    var L177 = [ new google.maps.LatLng(15.0, 19.0), new google.maps.LatLng(53.0, -8.0)];
+    var L177 = [ new google.maps.LatLng(41.9, 12.45), new google.maps.LatLng(50.0, 8.0)];
     var P177 = new google.maps.Polyline({ path: L177, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P177.setMap(map);
 
 
-    var L178 = [ new google.maps.LatLng(38.82, -92.22), new google.maps.LatLng(38.13, -78.45)];
+    var L178 = [ new google.maps.LatLng(15.0, 19.0), new google.maps.LatLng(50.0, 8.0)];
     var P178 = new google.maps.Polyline({ path: L178, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P178.setMap(map);
 
 
-    var L179 = [ new google.maps.LatLng(48.0, 68.0), new google.maps.LatLng(53.0, -8.0)];
+    var L179 = [ new google.maps.LatLng(38.82, -92.22), new google.maps.LatLng(39.96, -83.0)];
     var P179 = new google.maps.Polyline({ path: L179, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P179.setMap(map);
 
 
-    var L180 = [ new google.maps.LatLng(40.0, 60.0), new google.maps.LatLng(53.0, -8.0)];
+    var L180 = [ new google.maps.LatLng(48.0, 68.0), new google.maps.LatLng(19.08, 72.88)];
     var P180 = new google.maps.Polyline({ path: L180, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P180.setMap(map);
 
 
-    var L181 = [ new google.maps.LatLng(46.0, 15.0), new google.maps.LatLng(53.0, -8.0)];
+    var L181 = [ new google.maps.LatLng(40.0, 60.0), new google.maps.LatLng(19.08, 72.88)];
     var P181 = new google.maps.Polyline({ path: L181, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P181.setMap(map);
 
 
-    var L182 = [ new google.maps.LatLng(47.33, 13.33), new google.maps.LatLng(53.0, -8.0)];
+    var L182 = [ new google.maps.LatLng(46.0, 15.0), new google.maps.LatLng(50.0, 8.0)];
     var P182 = new google.maps.Polyline({ path: L182, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P182.setMap(map);
 
 
-    var L183 = [ new google.maps.LatLng(15.0, -86.5), new google.maps.LatLng(38.13, -78.45)];
+    var L183 = [ new google.maps.LatLng(47.33, 13.33), new google.maps.LatLng(50.0, 8.0)];
     var P183 = new google.maps.Polyline({ path: L183, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P183.setMap(map);
 
 
-    var L184 = [ new google.maps.LatLng(27.0, 30.0), new google.maps.LatLng(53.0, -8.0)];
+    var L184 = [ new google.maps.LatLng(15.0, -86.5), new google.maps.LatLng(38.13, -78.45)];
     var P184 = new google.maps.Polyline({ path: L184, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P184.setMap(map);
 
 
-    var L185 = [ new google.maps.LatLng(-6.0, 35.0), new google.maps.LatLng(1.37, 103.8)];
+    var L185 = [ new google.maps.LatLng(27.0, 30.0), new google.maps.LatLng(50.0, 8.0)];
     var P185 = new google.maps.Polyline({ path: L185, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P185.setMap(map);
 
 
-    var L186 = [ new google.maps.LatLng(-8.0, 159.0), new google.maps.LatLng(-33.86, 151.2)];
+    var L186 = [ new google.maps.LatLng(-6.0, 35.0), new google.maps.LatLng(19.08, 72.88)];
     var P186 = new google.maps.Polyline({ path: L186, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P186.setMap(map);
 
 
-    var L187 = [ new google.maps.LatLng(18.33, -64.83), new google.maps.LatLng(38.13, -78.45)];
+    var L187 = [ new google.maps.LatLng(-8.0, 159.0), new google.maps.LatLng(-33.86, 151.2)];
     var P187 = new google.maps.Polyline({ path: L187, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P187.setMap(map);
 
 
-    var L188 = [ new google.maps.LatLng(72.0, -40.0), new google.maps.LatLng(53.0, -8.0)];
+    var L188 = [ new google.maps.LatLng(18.33, -64.83), new google.maps.LatLng(38.13, -78.45)];
     var P188 = new google.maps.Polyline({ path: L188, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P188.setMap(map);
 
 
-    var L189 = [ new google.maps.LatLng(44.32, -69.8), new google.maps.LatLng(38.13, -78.45)];
+    var L189 = [ new google.maps.LatLng(72.0, -40.0), new google.maps.LatLng(53.0, -8.0)];
     var P189 = new google.maps.Polyline({ path: L189, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P189.setMap(map);
 
 
-    var L190 = [ new google.maps.LatLng(42.83, 12.83), new google.maps.LatLng(53.0, -8.0)];
+    var L190 = [ new google.maps.LatLng(44.32, -69.8), new google.maps.LatLng(45.5, -73.6)];
     var P190 = new google.maps.Polyline({ path: L190, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P190.setMap(map);
 
 
-    var L191 = [ new google.maps.LatLng(-13.3, -176.2), new google.maps.LatLng(-33.86, 151.2)];
+    var L191 = [ new google.maps.LatLng(42.83, 12.83), new google.maps.LatLng(50.0, 8.0)];
     var P191 = new google.maps.Polyline({ path: L191, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P191.setMap(map);
 
@@ -2132,7 +2188,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P193.setMap(map);
 
 
-    var L194 = [ new google.maps.LatLng(41.17, -71.58), new google.maps.LatLng(38.13, -78.45)];
+    var L194 = [ new google.maps.LatLng(41.17, -71.58), new google.maps.LatLng(45.5, -73.6)];
     var P194 = new google.maps.Polyline({ path: L194, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P194.setMap(map);
 
@@ -2142,22 +2198,22 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P195.setMap(map);
 
 
-    var L196 = [ new google.maps.LatLng(46.0, 105.0), new google.maps.LatLng(35.41, 139.42)];
+    var L196 = [ new google.maps.LatLng(46.0, 105.0), new google.maps.LatLng(37.56, 126.98)];
     var P196 = new google.maps.Polyline({ path: L196, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P196.setMap(map);
 
 
-    var L197 = [ new google.maps.LatLng(33.65, -88.45), new google.maps.LatLng(38.13, -78.45)];
+    var L197 = [ new google.maps.LatLng(33.65, -88.45), new google.maps.LatLng(39.96, -83.0)];
     var P197 = new google.maps.Polyline({ path: L197, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P197.setMap(map);
 
 
-    var L198 = [ new google.maps.LatLng(14.0, -14.0), new google.maps.LatLng(53.0, -8.0)];
+    var L198 = [ new google.maps.LatLng(14.0, -14.0), new google.maps.LatLng(48.86, 2.35)];
     var P198 = new google.maps.Polyline({ path: L198, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P198.setMap(map);
 
 
-    var L199 = [ new google.maps.LatLng(31.5, 34.75), new google.maps.LatLng(53.0, -8.0)];
+    var L199 = [ new google.maps.LatLng(31.5, 34.75), new google.maps.LatLng(50.0, 8.0)];
     var P199 = new google.maps.Polyline({ path: L199, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P199.setMap(map);
 
@@ -2167,12 +2223,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P200.setMap(map);
 
 
-    var L201 = [ new google.maps.LatLng(25.5, 51.25), new google.maps.LatLng(53.0, -8.0)];
+    var L201 = [ new google.maps.LatLng(25.5, 51.25), new google.maps.LatLng(19.08, 72.88)];
     var P201 = new google.maps.Polyline({ path: L201, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P201.setMap(map);
 
 
-    var L202 = [ new google.maps.LatLng(43.0, 25.0), new google.maps.LatLng(53.0, -8.0)];
+    var L202 = [ new google.maps.LatLng(43.0, 25.0), new google.maps.LatLng(50.0, 8.0)];
     var P202 = new google.maps.Polyline({ path: L202, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P202.setMap(map);
 
@@ -2182,27 +2238,27 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P203.setMap(map);
 
 
-    var L204 = [ new google.maps.LatLng(39.0, 35.0), new google.maps.LatLng(53.0, -8.0)];
+    var L204 = [ new google.maps.LatLng(39.0, 35.0), new google.maps.LatLng(50.0, 8.0)];
     var P204 = new google.maps.Polyline({ path: L204, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P204.setMap(map);
 
 
-    var L205 = [ new google.maps.LatLng(2.0, 10.0), new google.maps.LatLng(53.0, -8.0)];
+    var L205 = [ new google.maps.LatLng(2.0, 10.0), new google.maps.LatLng(48.86, 2.35)];
     var P205 = new google.maps.Polyline({ path: L205, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P205.setMap(map);
 
 
-    var L206 = [ new google.maps.LatLng(17.0, -4.0), new google.maps.LatLng(53.0, -8.0)];
+    var L206 = [ new google.maps.LatLng(17.0, -4.0), new google.maps.LatLng(48.86, 2.35)];
     var P206 = new google.maps.Polyline({ path: L206, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P206.setMap(map);
 
 
-    var L207 = [ new google.maps.LatLng(56.0, 10.0), new google.maps.LatLng(53.0, -8.0)];
+    var L207 = [ new google.maps.LatLng(56.0, 10.0), new google.maps.LatLng(50.0, 8.0)];
     var P207 = new google.maps.Polyline({ path: L207, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P207.setMap(map);
 
 
-    var L208 = [ new google.maps.LatLng(52.0, 20.0), new google.maps.LatLng(53.0, -8.0)];
+    var L208 = [ new google.maps.LatLng(52.0, 20.0), new google.maps.LatLng(50.0, 8.0)];
     var P208 = new google.maps.Polyline({ path: L208, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P208.setMap(map);
 
@@ -2232,12 +2288,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P213.setMap(map);
 
 
-    var L214 = [ new google.maps.LatLng(46.83, -56.33), new google.maps.LatLng(38.13, -78.45)];
+    var L214 = [ new google.maps.LatLng(46.83, -56.33), new google.maps.LatLng(45.5, -73.6)];
     var P214 = new google.maps.Polyline({ path: L214, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P214.setMap(map);
 
 
-    var L215 = [ new google.maps.LatLng(-1.0, 11.75), new google.maps.LatLng(53.0, -8.0)];
+    var L215 = [ new google.maps.LatLng(-1.0, 11.75), new google.maps.LatLng(48.86, 2.35)];
     var P215 = new google.maps.Polyline({ path: L215, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P215.setMap(map);
 
@@ -2252,7 +2308,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P217.setMap(map);
 
 
-    var L218 = [ new google.maps.LatLng(42.75, -73.8), new google.maps.LatLng(38.13, -78.45)];
+    var L218 = [ new google.maps.LatLng(42.75, -73.8), new google.maps.LatLng(45.5, -73.6)];
     var P218 = new google.maps.Polyline({ path: L218, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P218.setMap(map);
 
@@ -2277,7 +2333,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P222.setMap(map);
 
 
-    var L223 = [ new google.maps.LatLng(-1.0, 15.0), new google.maps.LatLng(53.0, -8.0)];
+    var L223 = [ new google.maps.LatLng(-1.0, 15.0), new google.maps.LatLng(48.86, 2.35)];
     var P223 = new google.maps.Polyline({ path: L223, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P223.setMap(map);
 
@@ -2297,12 +2353,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P226.setMap(map);
 
 
-    var L227 = [ new google.maps.LatLng(40.0, -4.0), new google.maps.LatLng(53.0, -8.0)];
+    var L227 = [ new google.maps.LatLng(40.0, -4.0), new google.maps.LatLng(48.86, 2.35)];
     var P227 = new google.maps.Polyline({ path: L227, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P227.setMap(map);
 
 
-    var L228 = [ new google.maps.LatLng(60.0, 100.0), new google.maps.LatLng(35.41, 139.42)];
+    var L228 = [ new google.maps.LatLng(60.0, 100.0), new google.maps.LatLng(37.56, 126.98)];
     var P228 = new google.maps.Polyline({ path: L228, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P228.setMap(map);
 
@@ -2312,32 +2368,32 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P229.setMap(map);
 
 
-    var L230 = [ new google.maps.LatLng(40.0, 127.0), new google.maps.LatLng(35.41, 139.42)];
+    var L230 = [ new google.maps.LatLng(40.0, 127.0), new google.maps.LatLng(37.56, 126.98)];
     var P230 = new google.maps.Polyline({ path: L230, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P230.setMap(map);
 
 
-    var L231 = [ new google.maps.LatLng(40.78, -91.12), new google.maps.LatLng(38.13, -78.45)];
+    var L231 = [ new google.maps.LatLng(40.78, -91.12), new google.maps.LatLng(39.96, -83.0)];
     var P231 = new google.maps.Polyline({ path: L231, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P231.setMap(map);
 
 
-    var L232 = [ new google.maps.LatLng(15.0, 48.0), new google.maps.LatLng(1.37, 103.8)];
+    var L232 = [ new google.maps.LatLng(15.0, 48.0), new google.maps.LatLng(19.08, 72.88)];
     var P232 = new google.maps.Polyline({ path: L232, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P232.setMap(map);
 
 
-    var L233 = [ new google.maps.LatLng(43.77, 12.42), new google.maps.LatLng(53.0, -8.0)];
+    var L233 = [ new google.maps.LatLng(43.77, 12.42), new google.maps.LatLng(50.0, 8.0)];
     var P233 = new google.maps.Polyline({ path: L233, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P233.setMap(map);
 
 
-    var L234 = [ new google.maps.LatLng(11.0, -10.0), new google.maps.LatLng(53.0, -8.0)];
+    var L234 = [ new google.maps.LatLng(11.0, -10.0), new google.maps.LatLng(48.86, 2.35)];
     var P234 = new google.maps.Polyline({ path: L234, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P234.setMap(map);
 
 
-    var L235 = [ new google.maps.LatLng(39.21, -82.23), new google.maps.LatLng(38.13, -78.45)];
+    var L235 = [ new google.maps.LatLng(39.21, -82.23), new google.maps.LatLng(39.96, -83.0)];
     var P235 = new google.maps.Polyline({ path: L235, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P235.setMap(map);
 
@@ -2347,17 +2403,17 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P236.setMap(map);
 
 
-    var L237 = [ new google.maps.LatLng(38.88, -90.05), new google.maps.LatLng(38.13, -78.45)];
+    var L237 = [ new google.maps.LatLng(38.88, -90.05), new google.maps.LatLng(39.96, -83.0)];
     var P237 = new google.maps.Polyline({ path: L237, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P237.setMap(map);
 
 
-    var L238 = [ new google.maps.LatLng(41.83, 22.0), new google.maps.LatLng(53.0, -8.0)];
+    var L238 = [ new google.maps.LatLng(41.83, 22.0), new google.maps.LatLng(50.0, 8.0)];
     var P238 = new google.maps.Polyline({ path: L238, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P238.setMap(map);
 
 
-    var L239 = [ new google.maps.LatLng(37.0, 127.5), new google.maps.LatLng(35.41, 139.42)];
+    var L239 = [ new google.maps.LatLng(37.0, 127.5), new google.maps.LatLng(37.56, 126.98)];
     var P239 = new google.maps.Polyline({ path: L239, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P239.setMap(map);
 
@@ -2372,17 +2428,17 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P241.setMap(map);
 
 
-    var L242 = [ new google.maps.LatLng(-20.0, 47.0), new google.maps.LatLng(1.37, 103.8)];
+    var L242 = [ new google.maps.LatLng(-20.0, 47.0), new google.maps.LatLng(19.08, 72.88)];
     var P242 = new google.maps.Polyline({ path: L242, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P242.setMap(map);
 
 
-    var L243 = [ new google.maps.LatLng(39.0, 22.0), new google.maps.LatLng(53.0, -8.0)];
+    var L243 = [ new google.maps.LatLng(39.0, 22.0), new google.maps.LatLng(50.0, 8.0)];
     var P243 = new google.maps.Polyline({ path: L243, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P243.setMap(map);
 
 
-    var L244 = [ new google.maps.LatLng(24.0, 54.0), new google.maps.LatLng(1.37, 103.8)];
+    var L244 = [ new google.maps.LatLng(24.0, 54.0), new google.maps.LatLng(19.08, 72.88)];
     var P244 = new google.maps.Polyline({ path: L244, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P244.setMap(map);
 
@@ -2407,12 +2463,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P248.setMap(map);
 
 
-    var L249 = [ new google.maps.LatLng(54.0, -2.0), new google.maps.LatLng(53.0, -8.0)];
+    var L249 = [ new google.maps.LatLng(54.0, -2.0), new google.maps.LatLng(51.0, -0.1)];
     var P249 = new google.maps.Polyline({ path: L249, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P249.setMap(map);
 
 
-    var L250 = [ new google.maps.LatLng(34.0, 9.0), new google.maps.LatLng(53.0, -8.0)];
+    var L250 = [ new google.maps.LatLng(34.0, 9.0), new google.maps.LatLng(48.86, 2.35)];
     var P250 = new google.maps.Polyline({ path: L250, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P250.setMap(map);
 
@@ -2427,7 +2483,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P252.setMap(map);
 
 
-    var L253 = [ new google.maps.LatLng(-6.0, 71.5), new google.maps.LatLng(1.37, 103.8)];
+    var L253 = [ new google.maps.LatLng(-6.0, 71.5), new google.maps.LatLng(19.08, 72.88)];
     var P253 = new google.maps.Polyline({ path: L253, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P253.setMap(map);
 
@@ -2442,32 +2498,32 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P255.setMap(map);
 
 
-    var L256 = [ new google.maps.LatLng(16.0, 8.0), new google.maps.LatLng(53.0, -8.0)];
+    var L256 = [ new google.maps.LatLng(16.0, 8.0), new google.maps.LatLng(48.86, 2.35)];
     var P256 = new google.maps.Polyline({ path: L256, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P256.setMap(map);
 
 
-    var L257 = [ new google.maps.LatLng(26.0, 50.55), new google.maps.LatLng(53.0, -8.0)];
+    var L257 = [ new google.maps.LatLng(26.0, 50.55), new google.maps.LatLng(19.08, 72.88)];
     var P257 = new google.maps.Polyline({ path: L257, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P257.setMap(map);
 
 
-    var L258 = [ new google.maps.LatLng(33.0, 44.0), new google.maps.LatLng(53.0, -8.0)];
+    var L258 = [ new google.maps.LatLng(33.0, 44.0), new google.maps.LatLng(19.08, 72.88)];
     var P258 = new google.maps.Polyline({ path: L258, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P258.setMap(map);
 
 
-    var L259 = [ new google.maps.LatLng(39.5, -8.0), new google.maps.LatLng(53.0, -8.0)];
+    var L259 = [ new google.maps.LatLng(39.5, -8.0), new google.maps.LatLng(48.86, 2.35)];
     var P259 = new google.maps.Polyline({ path: L259, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P259.setMap(map);
 
 
-    var L260 = [ new google.maps.LatLng(41.17, -73.13), new google.maps.LatLng(38.13, -78.45)];
+    var L260 = [ new google.maps.LatLng(41.17, -73.13), new google.maps.LatLng(45.5, -73.6)];
     var P260 = new google.maps.Polyline({ path: L260, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P260.setMap(map);
 
 
-    var L261 = [ new google.maps.LatLng(45.17, 15.5), new google.maps.LatLng(53.0, -8.0)];
+    var L261 = [ new google.maps.LatLng(45.17, 15.5), new google.maps.LatLng(50.0, 8.0)];
     var P261 = new google.maps.Polyline({ path: L261, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P261.setMap(map);
 
@@ -2477,32 +2533,32 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P262.setMap(map);
 
 
-    var L263 = [ new google.maps.LatLng(13.0, -2.0), new google.maps.LatLng(53.0, -8.0)];
+    var L263 = [ new google.maps.LatLng(13.0, -2.0), new google.maps.LatLng(48.86, 2.35)];
     var P263 = new google.maps.Polyline({ path: L263, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P263.setMap(map);
 
 
-    var L264 = [ new google.maps.LatLng(62.0, 10.0), new google.maps.LatLng(53.0, -8.0)];
+    var L264 = [ new google.maps.LatLng(62.0, 10.0), new google.maps.LatLng(50.0, 8.0)];
     var P264 = new google.maps.Polyline({ path: L264, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P264.setMap(map);
 
 
-    var L265 = [ new google.maps.LatLng(47.0, 29.0), new google.maps.LatLng(53.0, -8.0)];
+    var L265 = [ new google.maps.LatLng(47.0, 29.0), new google.maps.LatLng(50.0, 8.0)];
     var P265 = new google.maps.Polyline({ path: L265, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P265.setMap(map);
 
 
-    var L266 = [ new google.maps.LatLng(33.58, -85.85), new google.maps.LatLng(38.13, -78.45)];
+    var L266 = [ new google.maps.LatLng(33.58, -85.85), new google.maps.LatLng(39.96, -83.0)];
     var P266 = new google.maps.Polyline({ path: L266, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P266.setMap(map);
 
 
-    var L267 = [ new google.maps.LatLng(64.0, 26.0), new google.maps.LatLng(53.0, -8.0)];
+    var L267 = [ new google.maps.LatLng(64.0, 26.0), new google.maps.LatLng(50.0, 8.0)];
     var P267 = new google.maps.Polyline({ path: L267, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P267.setMap(map);
 
 
-    var L268 = [ new google.maps.LatLng(47.0, 8.0), new google.maps.LatLng(53.0, -8.0)];
+    var L268 = [ new google.maps.LatLng(47.0, 8.0), new google.maps.LatLng(50.0, 8.0)];
     var P268 = new google.maps.Polyline({ path: L268, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P268.setMap(map);
 
@@ -2512,17 +2568,17 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P269.setMap(map);
 
 
-    var L270 = [ new google.maps.LatLng(36.48, -82.4), new google.maps.LatLng(38.13, -78.45)];
+    var L270 = [ new google.maps.LatLng(36.48, -82.4), new google.maps.LatLng(39.96, -83.0)];
     var P270 = new google.maps.Polyline({ path: L270, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P270.setMap(map);
 
 
-    var L271 = [ new google.maps.LatLng(6.5, -9.5), new google.maps.LatLng(53.0, -8.0)];
+    var L271 = [ new google.maps.LatLng(6.5, -9.5), new google.maps.LatLng(48.86, 2.35)];
     var P271 = new google.maps.Polyline({ path: L271, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P271.setMap(map);
 
 
-    var L272 = [ new google.maps.LatLng(-21.1, 55.6), new google.maps.LatLng(1.37, 103.8)];
+    var L272 = [ new google.maps.LatLng(-21.1, 55.6), new google.maps.LatLng(19.08, 72.88)];
     var P272 = new google.maps.Polyline({ path: L272, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P272.setMap(map);
 
@@ -2532,7 +2588,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P273.setMap(map);
 
 
-    var L274 = [ new google.maps.LatLng(22.17, 113.55), new google.maps.LatLng(1.37, 103.8)];
+    var L274 = [ new google.maps.LatLng(22.17, 113.55), new google.maps.LatLng(37.56, 126.98)];
     var P274 = new google.maps.Polyline({ path: L274, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P274.setMap(map);
 
@@ -2542,7 +2598,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P275.setMap(map);
 
 
-    var L276 = [ new google.maps.LatLng(23.5, 121.0), new google.maps.LatLng(35.41, 139.42)];
+    var L276 = [ new google.maps.LatLng(23.5, 121.0), new google.maps.LatLng(37.56, 126.98)];
     var P276 = new google.maps.Polyline({ path: L276, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P276.setMap(map);
 
@@ -2552,7 +2608,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P277.setMap(map);
 
 
-    var L278 = [ new google.maps.LatLng(44.0, 18.0), new google.maps.LatLng(53.0, -8.0)];
+    var L278 = [ new google.maps.LatLng(44.0, 18.0), new google.maps.LatLng(50.0, 8.0)];
     var P278 = new google.maps.Polyline({ path: L278, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P278.setMap(map);
 
@@ -2562,12 +2618,12 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P279.setMap(map);
 
 
-    var L280 = [ new google.maps.LatLng(50.83, 4.0), new google.maps.LatLng(53.0, -8.0)];
+    var L280 = [ new google.maps.LatLng(50.83, 4.0), new google.maps.LatLng(48.86, 2.35)];
     var P280 = new google.maps.Polyline({ path: L280, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P280.setMap(map);
 
 
-    var L281 = [ new google.maps.LatLng(24.0, 90.0), new google.maps.LatLng(1.37, 103.8)];
+    var L281 = [ new google.maps.LatLng(24.0, 90.0), new google.maps.LatLng(19.08, 72.88)];
     var P281 = new google.maps.Polyline({ path: L281, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P281.setMap(map);
 
@@ -2582,17 +2638,17 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P283.setMap(map);
 
 
-    var L284 = [ new google.maps.LatLng(45.07, -83.57), new google.maps.LatLng(38.13, -78.45)];
+    var L284 = [ new google.maps.LatLng(45.07, -83.57), new google.maps.LatLng(39.96, -83.0)];
     var P284 = new google.maps.Polyline({ path: L284, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P284.setMap(map);
 
 
-    var L285 = [ new google.maps.LatLng(8.0, 1.17), new google.maps.LatLng(53.0, -8.0)];
+    var L285 = [ new google.maps.LatLng(8.0, 1.17), new google.maps.LatLng(48.86, 2.35)];
     var P285 = new google.maps.Polyline({ path: L285, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P285.setMap(map);
 
 
-    var L286 = [ new google.maps.LatLng(56.0, 24.0), new google.maps.LatLng(53.0, -8.0)];
+    var L286 = [ new google.maps.LatLng(56.0, 24.0), new google.maps.LatLng(50.0, 8.0)];
     var P286 = new google.maps.Polyline({ path: L286, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P286.setMap(map);
 
@@ -2602,7 +2658,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P287.setMap(map);
 
 
-    var L288 = [ new google.maps.LatLng(20.0, 77.0), new google.maps.LatLng(1.37, 103.8)];
+    var L288 = [ new google.maps.LatLng(20.0, 77.0), new google.maps.LatLng(19.08, 72.88)];
     var P288 = new google.maps.Polyline({ path: L288, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P288.setMap(map);
 
@@ -2612,7 +2668,7 @@ ProcessCable("CBUS", "4.80000000000e+002", "http://www.cwbda.com/", "", "1.60000
     P289.setMap(map);
 
 
-    var L290 = [ new google.maps.LatLng(27.5, 90.5), new google.maps.LatLng(1.37, 103.8)];
+    var L290 = [ new google.maps.LatLng(27.5, 90.5), new google.maps.LatLng(19.08, 72.88)];
     var P290 = new google.maps.Polyline({ path: L290, strokeColor: "#FF8378", strokeOpacity: 1.0, strokeWeight: 2 });
     P290.setMap(map);
 
