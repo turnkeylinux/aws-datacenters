@@ -130,18 +130,25 @@ def main():
     entries = Entries()
 
     for line in file("input/datacenters").readlines():
+        if line[0] == '#':
+            continue
         code, name, lat, lon = line.rstrip().split(";")
         entries.add_datacenter(code, name, float(lat), float(lon))
 
     for filepath in ("input/countries", "input/usa"):
+        if line[0] == '#':
+            continue
         tag = os.path.basename(filepath)
         for line in file(filepath).readlines():
             code, name, lat, lon = line.rstrip().split(";")
             entries.add_entry(code, name, float(lat), float(lon), tag)
 
     for line in file("input/overrides").readlines():
+        if line[0] == '#':
+            continue
         code, tag, name, datacenter = line.rstrip().split(";")
-        entries.override_entry(code, name, tag, datacenter)
+        if entries.datacenters.has_key(code):
+            entries.override_entry(code, name, tag, datacenter)
 
     entries.write_index("usa", "output/usa.index")
     entries.write_index("countries", "output/countries.index")
