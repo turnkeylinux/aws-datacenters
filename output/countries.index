@@ -1,256 +1,256 @@
-A1;Anonymous Proxy;us-east-1
-A2;Satellite Provider;us-east-1
-AD;Andorra;eu-south-1
-AE;United Arab Emirates;me-south-1
-AF;Afghanistan;me-south-1
-AG;Antigua and Barbuda;us-east-1
-AI;Anguilla;us-east-1
-AL;Albania;eu-south-1
-AM;Armenia;me-south-1
-AN;Netherlands Antilles;us-east-1
-AO;Angola;eu-west-1
-AP;Asia/Pacific Region;ap-east-1
-AQ;Antarctica;af-south
-AR;Argentina;sa-east-1
-AS;American Samoa;ap-southeast-2
-AT;Austria;eu-south-1
-AU;Australia;ap-southeast-2
-AW;Aruba;us-east-1
-AX;Aland Islands;eu-west-1
-AZ;Azerbaijan;me-south-1
-BA;Bosnia and Herzegovina;eu-south-1
-BB;Barbados;us-east-1
-BD;Bangladesh;ap-south-1
-BE;Belgium;eu-west-3
-BF;Burkina Faso;eu-south-1
-BG;Bulgaria;eu-south-1
-BH;Bahrain;me-south-1
-BI;Burundi;af-south
-BJ;Benin;eu-south-1
-BL;Saint Barthélemy;us-east-1
-BM;Bermuda;us-east-1
-BN;Brunei Darussalam;ap-southeast-1
-BO;Bolivia;sa-east-1
-BQ;Caribbean Netherlands;us-east-1
-BR;Brazil;sa-east-1
-BS;Bahamas;us-east-1
-BT;Bhutan;ap-south-1
-BV;Bouvet Island;af-south
-BW;Botswana;eu-west-1
-BY;Belarus;eu-north-1
-BZ;Belize;us-east-1
-CA;Canada;us-west-2
-CC;Cocos (Keeling) Islands;ap-southeast-1
-CD;Congo, The Democratic Republic of the;af-south
-CF;Central African Republic;me-south-1
-CG;Congo;af-south
-CH;Switzerland;eu-south-1
-CI;Cote d'Ivoire;eu-south-1
-CK;Cook Islands;ap-southeast-2
-CL;Chile;sa-east-1
-CM;Cameroon;eu-south-1
-CN;China;ap-east-1
-CO;Colombia;sa-east-1
-CR;Costa Rica;us-east-1
-CU;Cuba;us-east-1
-CV;Cape Verde;eu-west-1
-CW;Curaçao;us-east-1
-CX;Christmas Island;ap-southeast-1
-CY;Cyprus;me-south-1
-CZ;Czech Republic;eu-central-1
-DE;Germany;eu-central-1
-DJ;Djibouti;me-south-1
-DK;Denmark;eu-north-1
-DM;Dominica;us-east-1
-DO;Dominican Republic;us-east-1
-DZ;Algeria;eu-south-1
-EC;Ecuador;sa-east-1
-EE;Estonia;eu-north-1
-EG;Egypt;me-south-1
-EH;Western Sahara;eu-west-3
-ER;Eritrea;me-south-1
-ES;Spain;eu-west-3
-ET;Ethiopia;me-south-1
-EU;Europe;eu-south-1
-FI;Finland;eu-north-1
-FJ;Fiji;ap-southeast-2
-FK;Falkland Islands (Malvinas);sa-east-1
-FM;Micronesia, Federated States of;ap-northeast-1
-FO;Faroe Islands;eu-west-1
-FR;France;eu-west-3
-GA;Gabon;af-south
-GB;United Kingdom;eu-west-2
-GD;Grenada;us-east-1
-GE;Georgia;me-south-1
-GF;French Guiana;sa-east-1
-GG;Guernsey;eu-west-1
-GH;Ghana;eu-south-1
-GI;Gibraltar;eu-west-3
-GL;Greenland;eu-west-1
-GM;Gambia;eu-west-3
-GN;Guinea;eu-south-1
-GP;Guadeloupe;us-east-1
-GQ;Equatorial Guinea;af-south
-GR;Greece;eu-south-1
-GS;South Georgia and the South Sandwich Islands;sa-east-1
-GT;Guatemala;us-east-1
-GU;Guam;ap-northeast-1
-GW;Guinea-Bissau;eu-south-1
-GY;Guyana;sa-east-1
-HK;Hong Kong;ap-east-1
-HM;Heard Island and McDonald Islands;af-south
-HN;Honduras;us-east-1
-HR;Croatia;eu-south-1
-HT;Haiti;us-east-1
-HU;Hungary;eu-south-1
-ID;Indonesia;ap-southeast-1
-IE;Ireland;eu-west-1
-IL;Israel;me-south-1
-IM;Isle of Man;eu-west-1
-IN;India;ap-south-1
-IO;British Indian Ocean Territory;ap-south-1
-IQ;Iraq;me-south-1
-IR;Iran, Islamic Republic of;me-south-1
-IS;Iceland;eu-west-1
-IT;Italy;eu-south-1
-JE;Jersey;eu-west-1
-JM;Jamaica;us-east-1
-JO;Jordan;me-south-1
-JP;Japan;ap-northeast-1
-KE;Kenya;me-south-1
-KG;Kyrgyzstan;ap-south-1
-KH;Cambodia;ap-southeast-1
-KI;Kiribati;ap-southeast-2
-KM;Comoros;af-south
-KN;Saint Kitts and Nevis;us-east-1
-KP;Korea, Democratic People's Republic of;ap-northeast-2
-KR;Korea, Republic of;ap-northeast-2
-KW;Kuwait;me-south-1
-KY;Cayman Islands;us-east-1
-KZ;Kazakhstan;me-south-1
-LA;Lao People's Democratic Republic;ap-east-1
-LB;Lebanon;me-south-1
-LC;Saint Lucia;us-east-1
-LI;Liechtenstein;eu-south-1
-LK;Sri Lanka;ap-south-1
-LR;Liberia;eu-south-1
-LS;Lesotho;ap-southeast-1
-LT;Lithuania;eu-north-1
-LU;Luxembourg;eu-central-1
-LV;Latvia;eu-north-1
-LY;Libyan Arab Jamahiriya;eu-south-1
-MA;Morocco;eu-south-1
-MC;Monaco;eu-south-1
-MD;Moldova, Republic of;eu-south-1
-ME;Montenegro;eu-south-1
-MF;Saint Martin;us-east-1
-MG;Madagascar;af-south
-MH;Marshall Islands;ap-northeast-1
-MK;Macedonia;eu-south-1
-ML;Mali;eu-south-1
-MM;Myanmar;ap-east-1
-MN;Mongolia;ap-northeast-2
-MO;Macao;ap-east-1
-MP;Northern Mariana Islands;ap-northeast-1
-MQ;Martinique;us-east-1
-MR;Mauritania;eu-south-1
-MS;Montserrat;us-east-1
-MT;Malta;eu-south-1
-MU;Mauritius;af-south
-MV;Maldives;ap-south-1
-MW;Malawi;af-south
-MX;Mexico;us-west-1
-MY;Malaysia;ap-southeast-1
-MZ;Mozambique;af-south
-NA;Namibia;eu-west-1
-NC;New Caledonia;ap-southeast-2
-NE;Niger;eu-south-1
-NF;Norfolk Island;ap-southeast-2
-NG;Nigeria;eu-south-1
-NI;Nicaragua;us-east-1
-NL;Netherlands;eu-west-1
-NO;Norway;eu-north-1
-NP;Nepal;ap-south-1
-NR;Nauru;ap-southeast-2
-NU;Niue;ap-southeast-2
-NZ;New Zealand;ap-southeast-2
-O1;Other Country;us-east-1
-OM;Oman;me-south-1
-PA;Panama;us-east-1
-PE;Peru;sa-east-1
-PF;French Polynesia;us-west-1
-PG;Papua New Guinea;ap-southeast-2
-PH;Philippines;ap-east-1
-PK;Pakistan;ap-south-1
-PL;Poland;eu-north-1
-PM;Saint Pierre and Miquelon;ca-central-1
-PN;Pitcairn;us-west-1
-PR;Puerto Rico;us-east-1
-PS;Palestinian Territory;me-south-1
-PT;Portugal;eu-west-3
-PW;Palau;ap-east-1
-PY;Paraguay;sa-east-1
-QA;Qatar;me-south-1
-RE;Reunion;af-south
-RO;Romania;eu-south-1
-RS;Serbia;eu-south-1
-RU;Russian Federation;ap-northeast-2
-RW;Rwanda;af-south
-SA;Saudi Arabia;me-south-1
-SB;Solomon Islands;ap-southeast-2
-SC;Seychelles;ap-south-1
-SD;Sudan;me-south-1
-SE;Sweden;eu-north-1
-SG;Singapore;ap-southeast-1
-SH;Saint Helena;af-south
-SI;Slovenia;eu-south-1
-SJ;Svalbard and Jan Mayen;eu-north-1
-SK;Slovakia;eu-central-1
-SL;Sierra Leone;eu-south-1
-SM;San Marino;eu-south-1
-SN;Senegal;eu-south-1
-SO;Somalia;me-south-1
-SR;Suriname;sa-east-1
-SS;South Sudan;me-south-1
-ST;Sao Tome and Principe;af-south
-SV;El Salvador;us-east-1
-SX;Sint Maarten;us-east-1
-SY;Syrian Arab Republic;me-south-1
-SZ;Swaziland;ap-southeast-1
-TC;Turks and Caicos Islands;us-east-1
-TD;Chad;me-south-1
-TF;French Southern Territories;af-south
-TG;Togo;eu-south-1
-TH;Thailand;ap-southeast-1
-TJ;Tajikistan;ap-south-1
-TK;Tokelau;ap-southeast-2
-TL;Timor-Leste;ap-southeast-1
-TM;Turkmenistan;me-south-1
-TN;Tunisia;eu-south-1
-TO;Tonga;ap-southeast-2
-TR;Turkey;me-south-1
-TT;Trinidad and Tobago;us-east-1
-TV;Tuvalu;ap-southeast-2
-TW;Taiwan;ap-east-1
-TZ;Tanzania, United Republic of;af-south
-UA;Ukraine;eu-north-1
-UG;Uganda;me-south-1
-UM;United States Minor Outlying Islands;ap-northeast-1
-US;United States;us-east-2
-UY;Uruguay;sa-east-1
-UZ;Uzbekistan;me-south-1
-VA;Holy See (Vatican City State);eu-south-1
-VC;Saint Vincent and the Grenadines;us-east-1
-VE;Venezuela;sa-east-1
-VG;Virgin Islands, British;us-east-1
-VI;Virgin Islands, U.S.;us-east-1
-VN;Vietnam;ap-east-1
-VU;Vanuatu;ap-southeast-2
-WF;Wallis and Futuna;ap-southeast-2
-WS;Samoa;ap-southeast-2
-XK;Kosovo;eu-south-1
-YE;Yemen;me-south-1
-YT;Mayotte;af-south
-ZA;South Africa;ap-southeast-1
-ZM;Zambia;eu-west-1
-ZW;Zimbabwe;eu-west-1
+A1;Anonymous Proxy;us-east-1;None
+A2;Satellite Provider;us-east-1;None
+AD;Andorra;eu-south-1;eu-south-1,eu-west-3,eu-west-2,eu-central-1,eu-west-1,eu-north-1,me-south-1,ca-central-1,us-east-1,us-east-2,ap-south-1,af-south-1,us-west-2,sa-east-1,us-west-1,ap-northeast-2,ap-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,ap-southeast-2
+AE;United Arab Emirates;me-south-1;me-south-1,ap-south-1,eu-south-1,eu-north-1,eu-central-1,eu-west-3,eu-west-2,ap-southeast-1,eu-west-1,ap-east-1,ap-northeast-2,af-south-1,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,sa-east-1,ap-southeast-2,us-west-2,us-west-1
+AF;Afghanistan;me-south-1;me-south-1,ap-south-1,eu-north-1,eu-south-1,ap-east-1,eu-central-1,ap-southeast-1,eu-west-3,eu-west-2,ap-northeast-2,eu-west-1,ap-northeast-3,ap-northeast-1,af-south-1,ca-central-1,us-west-2,us-east-1,us-east-2,ap-southeast-2,us-west-1,sa-east-1
+AG;Antigua and Barbuda;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,eu-west-1,us-west-1,us-west-2,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-east-1,ap-southeast-2,ap-southeast-1
+AI;Anguilla;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,us-west-1,eu-west-1,us-west-2,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-south-1,ap-northeast-2,ap-northeast-3,ap-east-1,ap-southeast-2,ap-southeast-1
+AL;Albania;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,af-south-1,ap-northeast-2,ap-east-1,ap-northeast-3,ap-southeast-1,ap-northeast-1,us-west-2,sa-east-1,us-west-1,ap-southeast-2
+AM;Armenia;me-south-1;me-south-1,eu-north-1,eu-south-1,eu-central-1,eu-west-3,ap-south-1,eu-west-2,eu-west-1,ap-east-1,ap-northeast-2,ap-southeast-1,ap-northeast-3,ap-northeast-1,af-south-1,ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1,sa-east-1,ap-southeast-2
+AN;Netherlands Antilles;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-south-1,ap-southeast-2,ap-east-1,ap-southeast-1
+AO;Angola;eu-west-1;af-south-1,me-south-1,eu-south-1,ap-south-1,sa-east-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,eu-north-1,ap-southeast-1,ap-east-1,ca-central-1,us-east-1,us-east-2,ap-northeast-2,ap-southeast-2,ap-northeast-3,ap-northeast-1,us-west-2,us-west-1
+AP;Asia/Pacific Region;ap-east-1;ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-south-1,ap-southeast-1,me-south-1,eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,ap-southeast-2,us-west-2,us-west-1,ca-central-1,us-east-2,af-south-1,us-east-1,sa-east-1
+AQ;Antarctica;af-south-1;af-south-1,ap-southeast-2,sa-east-1,ap-southeast-1,ap-south-1,ap-east-1,me-south-1,ap-northeast-3,ap-northeast-1,us-west-1,ap-northeast-2,us-east-1,us-east-2,eu-south-1,ca-central-1,us-west-2,eu-west-3,eu-central-1,eu-west-2,eu-west-1,eu-north-1
+AR;Argentina;sa-east-1;sa-east-1,af-south-1,us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-3,eu-west-2,eu-south-1,ap-southeast-2,eu-central-1,eu-north-1,me-south-1,ap-south-1,ap-southeast-1,ap-northeast-1,ap-northeast-3,ap-east-1,ap-northeast-2
+AS;American Samoa;ap-southeast-2;ap-southeast-2,us-west-1,ap-northeast-1,ap-northeast-3,us-west-2,ap-northeast-2,ap-east-1,ap-southeast-1,us-east-2,us-east-1,ca-central-1,sa-east-1,ap-south-1,af-south-1,eu-north-1,eu-west-1,me-south-1,eu-west-2,eu-central-1,eu-west-3,eu-south-1
+AT;Austria;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-northeast-2,us-west-2,ap-east-1,af-south-1,ap-northeast-3,ap-northeast-1,us-west-1,sa-east-1,ap-southeast-1,ap-southeast-2
+AU;Australia;ap-southeast-2;ap-southeast-2,ap-southeast-1,ap-east-1,ap-northeast-3,ap-northeast-1,ap-northeast-2,ap-south-1,af-south-1,me-south-1,us-west-1,us-west-2,eu-north-1,sa-east-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,us-east-2,us-east-1,ca-central-1
+AW;Aruba;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-south-1,ap-southeast-2,ap-east-1,ap-southeast-1
+AX;Aland Islands;eu-west-1;None
+AZ;Azerbaijan;me-south-1;me-south-1,eu-north-1,eu-south-1,eu-central-1,ap-south-1,eu-west-3,eu-west-2,eu-west-1,ap-east-1,ap-northeast-2,ap-southeast-1,ap-northeast-3,ap-northeast-1,af-south-1,ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1,sa-east-1,ap-southeast-2
+BA;Bosnia and Herzegovina;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-northeast-2,af-south-1,ap-east-1,ap-northeast-3,us-west-2,ap-northeast-1,ap-southeast-1,sa-east-1,us-west-1,ap-southeast-2
+BB;Barbados;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,eu-west-1,us-west-1,eu-west-2,eu-west-3,us-west-2,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-east-1,ap-southeast-2,ap-southeast-1
+BD;Bangladesh;ap-south-1;ap-south-1,ap-east-1,ap-southeast-1,ap-northeast-2,me-south-1,ap-northeast-3,ap-northeast-1,eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,ap-southeast-2,af-south-1,us-west-2,ca-central-1,us-west-1,us-east-2,us-east-1,sa-east-1
+BE;Belgium;eu-west-3;eu-west-3,eu-west-2,eu-central-1,eu-south-1,eu-west-1,eu-north-1,me-south-1,ca-central-1,us-east-1,us-east-2,ap-south-1,us-west-2,ap-northeast-2,us-west-1,ap-northeast-3,ap-east-1,ap-northeast-1,af-south-1,sa-east-1,ap-southeast-1,ap-southeast-2
+BF;Burkina Faso;eu-south-1;eu-south-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,eu-north-1,me-south-1,af-south-1,sa-east-1,ca-central-1,us-east-1,ap-south-1,us-east-2,us-west-2,us-west-1,ap-southeast-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-southeast-2
+BG;Bulgaria;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-north-1,eu-west-2,eu-west-1,me-south-1,ap-south-1,ca-central-1,ap-northeast-2,us-east-1,ap-east-1,us-east-2,af-south-1,ap-northeast-3,ap-southeast-1,ap-northeast-1,us-west-2,sa-east-1,us-west-1,ap-southeast-2
+BH;Bahrain;me-south-1;me-south-1,ap-south-1,eu-south-1,eu-north-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,ap-southeast-1,ap-east-1,ap-northeast-2,af-south-1,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,sa-east-1,us-west-2,ap-southeast-2,us-west-1
+BI;Burundi;af-south-1;af-south-1,me-south-1,ap-south-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,ap-southeast-1,sa-east-1,ap-east-1,ap-northeast-2,ca-central-1,ap-northeast-3,us-east-1,ap-northeast-1,us-east-2,ap-southeast-2,us-west-2,us-west-1
+BJ;Benin;eu-south-1;eu-south-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,af-south-1,me-south-1,eu-north-1,sa-east-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-southeast-1,ap-east-1,us-west-2,us-west-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-southeast-2
+BL;Saint Barthélemy;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,us-west-1,eu-west-1,us-west-2,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-south-1,ap-northeast-2,ap-northeast-3,ap-east-1,ap-southeast-2,ap-southeast-1
+BM;Bermuda;us-east-1;us-east-1,ca-central-1,us-east-2,eu-west-1,us-west-1,us-west-2,eu-west-2,eu-west-3,eu-central-1,eu-south-1,sa-east-1,eu-north-1,me-south-1,af-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,ap-east-1,ap-southeast-1,ap-southeast-2
+BN;Brunei Darussalam;ap-southeast-1;ap-southeast-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-south-1,ap-southeast-2,me-south-1,eu-north-1,eu-central-1,eu-south-1,af-south-1,eu-west-3,eu-west-2,eu-west-1,us-west-2,us-west-1,ca-central-1,us-east-2,us-east-1,sa-east-1
+BO;Bolivia;sa-east-1;sa-east-1,us-east-1,us-east-2,ca-central-1,af-south-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-south-1,eu-central-1,eu-north-1,ap-southeast-2,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-southeast-1,ap-east-1
+BQ;Caribbean Netherlands;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-south-1,ap-southeast-2,ap-east-1,ap-southeast-1
+BR;Brazil;sa-east-1;sa-east-1,us-east-1,us-east-2,ca-central-1,af-south-1,eu-west-1,eu-west-2,eu-west-3,us-west-1,eu-south-1,eu-central-1,us-west-2,eu-north-1,me-south-1,ap-south-1,ap-southeast-2,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-southeast-1,ap-east-1
+BS;Bahamas;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,sa-east-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-south-1,ap-east-1,ap-southeast-2,ap-southeast-1
+BT;Bhutan;ap-south-1;ap-south-1,ap-east-1,ap-southeast-1,ap-northeast-2,me-south-1,ap-northeast-3,ap-northeast-1,eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,ap-southeast-2,af-south-1,us-west-2,ca-central-1,us-west-1,us-east-2,us-east-1,sa-east-1
+BV;Bouvet Island;af-south-1;af-south-1,sa-east-1,ap-southeast-2,me-south-1,ap-south-1,ap-southeast-1,eu-south-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,eu-north-1,us-east-1,ca-central-1,us-east-2,ap-east-1,ap-northeast-2,us-west-1,ap-northeast-3,ap-northeast-1,us-west-2
+BW;Botswana;eu-west-1;af-south-1,me-south-1,ap-south-1,sa-east-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,ap-southeast-1,eu-north-1,ap-east-1,ap-southeast-2,ca-central-1,us-east-1,ap-northeast-2,us-east-2,ap-northeast-3,ap-northeast-1,us-west-2,us-west-1
+BY;Belarus;eu-north-1;eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,me-south-1,ap-south-1,ca-central-1,ap-northeast-2,us-east-1,us-east-2,ap-east-1,ap-northeast-3,ap-northeast-1,us-west-2,ap-southeast-1,us-west-1,af-south-1,sa-east-1,ap-southeast-2
+BZ;Belize;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,sa-east-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,ap-northeast-1,ap-northeast-3,af-south-1,ap-northeast-2,me-south-1,ap-southeast-2,ap-east-1,ap-south-1,ap-southeast-1
+CA;Canada;us-west-2;us-west-2,ca-central-1,us-east-2,us-west-1,us-east-1,eu-west-1,eu-north-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,sa-east-1,ap-south-1,ap-southeast-1,ap-southeast-2,af-south-1
+CC;Cocos (Keeling) Islands;ap-southeast-1;ap-southeast-1,ap-east-1,ap-south-1,ap-southeast-2,ap-northeast-2,me-south-1,ap-northeast-3,ap-northeast-1,af-south-1,eu-north-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,sa-east-1,us-west-2,us-west-1,ca-central-1,us-east-2,us-east-1
+CD;Congo, The Democratic Republic of the;af-south-1;af-south-1,me-south-1,eu-south-1,ap-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,sa-east-1,ap-southeast-1,ap-east-1,ca-central-1,ap-northeast-2,us-east-1,us-east-2,ap-northeast-3,ap-northeast-1,ap-southeast-2,us-west-2,us-west-1
+CF;Central African Republic;me-south-1;me-south-1,eu-south-1,af-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,ap-south-1,eu-north-1,sa-east-1,ap-southeast-1,ca-central-1,ap-east-1,us-east-1,us-east-2,ap-northeast-2,ap-northeast-3,ap-northeast-1,us-west-2,us-west-1,ap-southeast-2
+CG;Congo;af-south-1;af-south-1,me-south-1,eu-south-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,ap-south-1,eu-north-1,sa-east-1,ap-southeast-1,ca-central-1,us-east-1,us-east-2,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,us-west-2,ap-southeast-2,us-west-1
+CH;Switzerland;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,eu-north-1,me-south-1,ca-central-1,ap-south-1,us-east-1,us-east-2,us-west-2,ap-northeast-2,af-south-1,ap-east-1,us-west-1,sa-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,ap-southeast-2
+CI;Cote d'Ivoire;eu-south-1;eu-south-1,eu-west-3,eu-west-2,eu-central-1,eu-west-1,af-south-1,sa-east-1,eu-north-1,me-south-1,ca-central-1,us-east-1,us-east-2,ap-south-1,us-west-2,us-west-1,ap-southeast-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-southeast-2
+CK;Cook Islands;ap-southeast-2;ap-southeast-2,us-west-1,us-west-2,ap-northeast-1,ap-northeast-3,ap-northeast-2,us-east-2,ap-east-1,us-east-1,ap-southeast-1,sa-east-1,ca-central-1,af-south-1,ap-south-1,eu-west-1,eu-north-1,eu-west-2,eu-west-3,eu-central-1,me-south-1,eu-south-1
+CL;Chile;sa-east-1;sa-east-1,us-east-1,us-east-2,af-south-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-south-1,ap-southeast-2,eu-central-1,eu-north-1,me-south-1,ap-south-1,ap-southeast-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1
+CM;Cameroon;eu-south-1;eu-south-1,af-south-1,me-south-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,eu-north-1,ap-south-1,sa-east-1,ca-central-1,us-east-1,us-east-2,ap-southeast-1,ap-east-1,ap-northeast-2,ap-northeast-3,us-west-2,ap-northeast-1,us-west-1,ap-southeast-2
+CN;China;ap-east-1;ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-south-1,ap-southeast-1,me-south-1,eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,ap-southeast-2,us-west-2,us-west-1,ca-central-1,us-east-2,af-south-1,us-east-1,sa-east-1
+CO;Colombia;sa-east-1;us-east-1,sa-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-southeast-2,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-south-1,ap-east-1,ap-southeast-1
+CR;Costa Rica;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,sa-east-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,ap-northeast-1,ap-northeast-3,me-south-1,ap-northeast-2,ap-southeast-2,ap-south-1,ap-east-1,ap-southeast-1
+CU;Cuba;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,sa-east-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,ap-northeast-1,me-south-1,ap-northeast-3,ap-northeast-2,ap-south-1,ap-southeast-2,ap-east-1,ap-southeast-1
+CV;Cape Verde;eu-west-1;eu-west-1,eu-west-3,eu-west-2,eu-south-1,eu-central-1,sa-east-1,ca-central-1,us-east-1,eu-north-1,us-east-2,af-south-1,me-south-1,us-west-2,us-west-1,ap-south-1,ap-northeast-2,ap-east-1,ap-southeast-1,ap-northeast-3,ap-northeast-1,ap-southeast-2
+CW;Curaçao;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-south-1,ap-southeast-2,ap-east-1,ap-southeast-1
+CX;Christmas Island;ap-southeast-1;ap-southeast-1,ap-east-1,ap-south-1,ap-southeast-2,ap-northeast-2,ap-northeast-3,ap-northeast-1,me-south-1,af-south-1,eu-north-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,us-west-2,us-west-1,sa-east-1,ca-central-1,us-east-2,us-east-1
+CY;Cyprus;me-south-1;me-south-1,eu-south-1,eu-central-1,eu-north-1,eu-west-3,eu-west-2,eu-west-1,ap-south-1,af-south-1,ap-east-1,ap-northeast-2,ap-southeast-1,ca-central-1,ap-northeast-3,ap-northeast-1,us-east-1,us-east-2,sa-east-1,us-west-2,us-west-1,ap-southeast-2
+CZ;Czech Republic;eu-central-1;eu-central-1,eu-south-1,eu-west-3,eu-north-1,eu-west-2,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-northeast-2,us-west-2,ap-east-1,ap-northeast-3,ap-northeast-1,af-south-1,us-west-1,ap-southeast-1,sa-east-1,ap-southeast-2
+DE;Germany;eu-central-1;eu-central-1,eu-west-3,eu-south-1,eu-west-2,eu-north-1,eu-west-1,me-south-1,ca-central-1,ap-south-1,us-east-1,us-east-2,us-west-2,ap-northeast-2,us-west-1,ap-east-1,ap-northeast-3,ap-northeast-1,af-south-1,sa-east-1,ap-southeast-1,ap-southeast-2
+DJ;Djibouti;me-south-1;me-south-1,ap-south-1,eu-south-1,eu-central-1,eu-west-3,af-south-1,eu-north-1,eu-west-2,eu-west-1,ap-southeast-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,sa-east-1,ca-central-1,us-east-1,us-east-2,ap-southeast-2,us-west-2,us-west-1
+DK;Denmark;eu-north-1;eu-north-1,eu-central-1,eu-west-2,eu-west-3,eu-south-1,eu-west-1,me-south-1,ca-central-1,us-east-1,ap-south-1,us-east-2,us-west-2,ap-northeast-2,us-west-1,ap-northeast-3,ap-northeast-1,ap-east-1,af-south-1,ap-southeast-1,sa-east-1,ap-southeast-2
+DM;Dominica;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,eu-west-1,us-west-1,us-west-2,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-east-1,ap-southeast-2,ap-southeast-1
+DO;Dominican Republic;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,sa-east-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-south-1,ap-east-1,ap-southeast-2,ap-southeast-1
+DZ;Algeria;eu-south-1;eu-south-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,eu-north-1,me-south-1,ca-central-1,af-south-1,ap-south-1,us-east-1,us-east-2,sa-east-1,us-west-2,ap-northeast-2,ap-east-1,us-west-1,ap-southeast-1,ap-northeast-3,ap-northeast-1,ap-southeast-2
+EC;Ecuador;sa-east-1;sa-east-1,us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,af-south-1,eu-north-1,ap-southeast-2,me-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-south-1,ap-east-1,ap-southeast-1
+EE;Estonia;eu-north-1;eu-north-1,eu-central-1,eu-west-2,eu-south-1,eu-west-3,eu-west-1,me-south-1,ap-south-1,ca-central-1,ap-northeast-2,us-east-1,us-east-2,ap-northeast-3,ap-east-1,ap-northeast-1,us-west-2,us-west-1,ap-southeast-1,af-south-1,sa-east-1,ap-southeast-2
+EG;Egypt;me-south-1;me-south-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,ap-south-1,af-south-1,ap-southeast-1,ap-east-1,ap-northeast-2,ca-central-1,ap-northeast-3,us-east-1,us-east-2,ap-northeast-1,sa-east-1,us-west-2,us-west-1,ap-southeast-2
+EH;Western Sahara;eu-west-3;eu-west-3,eu-south-1,eu-west-2,eu-west-1,eu-central-1,eu-north-1,ca-central-1,us-east-1,me-south-1,sa-east-1,us-east-2,af-south-1,ap-south-1,us-west-2,us-west-1,ap-northeast-2,ap-east-1,ap-southeast-1,ap-northeast-3,ap-northeast-1,ap-southeast-2
+ER;Eritrea;me-south-1;me-south-1,ap-south-1,eu-south-1,eu-central-1,eu-west-3,eu-north-1,eu-west-2,af-south-1,eu-west-1,ap-southeast-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,sa-east-1,ca-central-1,us-east-1,us-east-2,ap-southeast-2,us-west-2,us-west-1
+ES;Spain;eu-west-3;eu-west-3,eu-south-1,eu-west-2,eu-central-1,eu-west-1,eu-north-1,me-south-1,ca-central-1,us-east-1,us-east-2,ap-south-1,sa-east-1,af-south-1,us-west-2,us-west-1,ap-northeast-2,ap-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,ap-southeast-2
+ET;Ethiopia;me-south-1;me-south-1,ap-south-1,eu-south-1,af-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,ap-southeast-1,ap-east-1,ap-northeast-2,sa-east-1,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,ap-southeast-2,us-west-2,us-west-1
+EU;Europe;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,eu-north-1,me-south-1,ca-central-1,ap-south-1,us-east-1,us-east-2,us-west-2,ap-northeast-2,af-south-1,ap-east-1,us-west-1,sa-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,ap-southeast-2
+FI;Finland;eu-north-1;eu-north-1,eu-central-1,eu-west-2,eu-west-3,eu-west-1,eu-south-1,me-south-1,ca-central-1,ap-south-1,ap-northeast-2,us-east-1,us-east-2,ap-northeast-3,us-west-2,ap-northeast-1,ap-east-1,us-west-1,ap-southeast-1,af-south-1,sa-east-1,ap-southeast-2
+FJ;Fiji;ap-southeast-2;ap-southeast-2,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1,ap-southeast-1,us-west-1,us-west-2,ap-south-1,us-east-2,us-east-1,ca-central-1,sa-east-1,af-south-1,me-south-1,eu-north-1,eu-west-1,eu-central-1,eu-west-2,eu-west-3,eu-south-1
+FK;Falkland Islands (Malvinas);sa-east-1;sa-east-1,af-south-1,ap-southeast-2,us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-3,eu-south-1,eu-west-2,eu-central-1,me-south-1,eu-north-1,ap-southeast-1,ap-south-1,ap-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2
+FM;Micronesia, Federated States of;ap-northeast-1;ap-northeast-1,ap-northeast-3,ap-southeast-2,ap-northeast-2,ap-east-1,ap-southeast-1,us-west-2,us-west-1,ap-south-1,me-south-1,eu-north-1,us-east-2,ca-central-1,us-east-1,eu-central-1,eu-west-1,eu-west-2,eu-west-3,eu-south-1,af-south-1,sa-east-1
+FO;Faroe Islands;eu-west-1;eu-west-1,eu-west-2,eu-north-1,eu-west-3,eu-central-1,eu-south-1,ca-central-1,us-east-1,us-east-2,me-south-1,us-west-2,us-west-1,ap-south-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-east-1,sa-east-1,af-south-1,ap-southeast-1,ap-southeast-2
+FR;France;eu-west-3;eu-west-3,eu-south-1,eu-west-2,eu-central-1,eu-west-1,eu-north-1,me-south-1,ca-central-1,us-east-1,us-east-2,ap-south-1,us-west-2,af-south-1,sa-east-1,us-west-1,ap-northeast-2,ap-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,ap-southeast-2
+GA;Gabon;af-south-1;af-south-1,me-south-1,eu-south-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,eu-north-1,sa-east-1,ap-south-1,ca-central-1,us-east-1,ap-southeast-1,us-east-2,ap-east-1,ap-northeast-2,ap-northeast-3,us-west-2,ap-northeast-1,us-west-1,ap-southeast-2
+GB;United Kingdom;eu-west-2;eu-west-2,eu-west-1,eu-west-3,eu-central-1,eu-south-1,eu-north-1,ca-central-1,me-south-1,us-east-1,us-east-2,ap-south-1,us-west-2,us-west-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-east-1,sa-east-1,af-south-1,ap-southeast-1,ap-southeast-2
+GD;Grenada;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,eu-west-1,us-west-1,us-west-2,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-southeast-2,ap-east-1,ap-southeast-1
+GE;Georgia;me-south-1;me-south-1,eu-north-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,ap-south-1,eu-west-1,ap-east-1,ap-northeast-2,ap-southeast-1,ap-northeast-3,ap-northeast-1,ca-central-1,af-south-1,us-east-1,us-east-2,us-west-2,us-west-1,sa-east-1,ap-southeast-2
+GF;French Guiana;sa-east-1;sa-east-1,us-east-1,us-east-2,ca-central-1,eu-west-1,eu-west-2,eu-west-3,eu-south-1,eu-central-1,us-west-1,us-west-2,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-2,ap-northeast-1,ap-northeast-3,ap-southeast-2,ap-east-1,ap-southeast-1
+GG;Guernsey;eu-west-1;None
+GH;Ghana;eu-south-1;eu-south-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,af-south-1,me-south-1,eu-north-1,sa-east-1,ca-central-1,ap-south-1,us-east-1,us-east-2,us-west-2,ap-southeast-1,us-west-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-southeast-2
+GI;Gibraltar;eu-west-3;eu-west-3,eu-south-1,eu-west-2,eu-central-1,eu-west-1,eu-north-1,me-south-1,ca-central-1,us-east-1,us-east-2,ap-south-1,sa-east-1,af-south-1,us-west-2,us-west-1,ap-northeast-2,ap-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,ap-southeast-2
+GL;Greenland;eu-west-1;eu-west-1,eu-north-1,eu-west-2,eu-west-3,eu-central-1,ca-central-1,eu-south-1,us-east-2,us-east-1,us-west-2,us-west-1,me-south-1,ap-northeast-2,ap-northeast-1,ap-northeast-3,ap-south-1,ap-east-1,sa-east-1,ap-southeast-1,af-south-1,ap-southeast-2
+GM;Gambia;eu-west-3;eu-west-3,eu-south-1,eu-west-2,eu-west-1,eu-central-1,sa-east-1,eu-north-1,ca-central-1,af-south-1,us-east-1,us-east-2,me-south-1,ap-south-1,us-west-2,us-west-1,ap-northeast-2,ap-southeast-1,ap-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-2
+GN;Guinea;eu-south-1;eu-south-1,eu-west-3,eu-west-2,eu-central-1,eu-west-1,sa-east-1,af-south-1,eu-north-1,me-south-1,ca-central-1,us-east-1,us-east-2,ap-south-1,us-west-2,us-west-1,ap-southeast-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-southeast-2
+GP;Guadeloupe;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,eu-west-1,us-west-1,us-west-2,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-east-1,ap-southeast-2,ap-southeast-1
+GQ;Equatorial Guinea;af-south-1;af-south-1,eu-south-1,me-south-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,eu-north-1,sa-east-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-southeast-1,ap-east-1,ap-northeast-2,us-west-2,ap-northeast-3,ap-northeast-1,us-west-1,ap-southeast-2
+GR;Greece;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,me-south-1,ap-south-1,ca-central-1,af-south-1,us-east-1,us-east-2,ap-northeast-2,ap-east-1,ap-southeast-1,ap-northeast-3,ap-northeast-1,sa-east-1,us-west-2,us-west-1,ap-southeast-2
+GS;South Georgia and the South Sandwich Islands;sa-east-1;sa-east-1,af-south-1,ap-southeast-2,us-east-1,us-east-2,ca-central-1,eu-south-1,eu-west-3,me-south-1,eu-west-2,eu-west-1,eu-central-1,ap-south-1,us-west-1,ap-southeast-1,eu-north-1,us-west-2,ap-east-1,ap-northeast-3,ap-northeast-2,ap-northeast-1
+GT;Guatemala;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,sa-east-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,ap-northeast-1,ap-northeast-3,af-south-1,ap-northeast-2,ap-southeast-2,me-south-1,ap-east-1,ap-south-1,ap-southeast-1
+GU;Guam;ap-northeast-1;ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1,ap-southeast-1,ap-southeast-2,ap-south-1,us-west-2,us-west-1,me-south-1,eu-north-1,eu-central-1,eu-west-2,eu-south-1,eu-west-3,eu-west-1,us-east-2,ca-central-1,us-east-1,af-south-1,sa-east-1
+GW;Guinea-Bissau;eu-south-1;eu-south-1,eu-west-3,eu-west-2,eu-west-1,eu-central-1,sa-east-1,eu-north-1,af-south-1,ca-central-1,us-east-1,me-south-1,us-east-2,ap-south-1,us-west-2,us-west-1,ap-southeast-1,ap-northeast-2,ap-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-2
+GY;Guyana;sa-east-1;sa-east-1,us-east-1,us-east-2,ca-central-1,eu-west-1,us-west-1,eu-west-2,eu-west-3,us-west-2,eu-south-1,eu-central-1,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-southeast-2,ap-east-1,ap-southeast-1
+HK;Hong Kong;ap-east-1;ap-east-1,ap-northeast-2,ap-northeast-3,ap-southeast-1,ap-northeast-1,ap-south-1,me-south-1,ap-southeast-2,eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,us-west-2,us-west-1,af-south-1,ca-central-1,us-east-2,us-east-1,sa-east-1
+HM;Heard Island and McDonald Islands;af-south-1;af-south-1,ap-southeast-2,ap-southeast-1,ap-south-1,me-south-1,ap-east-1,sa-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,us-east-1,ca-central-1,us-east-2,us-west-1,us-west-2
+HN;Honduras;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,sa-east-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-southeast-2,ap-east-1,ap-south-1,ap-southeast-1
+HR;Croatia;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-northeast-2,af-south-1,ap-east-1,us-west-2,ap-northeast-3,ap-northeast-1,ap-southeast-1,sa-east-1,us-west-1,ap-southeast-2
+HT;Haiti;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,sa-east-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-south-1,ap-east-1,ap-southeast-2,ap-southeast-1
+HU;Hungary;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-north-1,eu-west-2,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-northeast-2,ap-east-1,ap-northeast-3,af-south-1,ap-northeast-1,us-west-2,ap-southeast-1,us-west-1,sa-east-1,ap-southeast-2
+ID;Indonesia;ap-southeast-1;ap-southeast-1,ap-east-1,ap-southeast-2,ap-northeast-3,ap-northeast-2,ap-northeast-1,ap-south-1,me-south-1,af-south-1,eu-north-1,eu-central-1,eu-south-1,us-west-2,eu-west-3,eu-west-2,us-west-1,eu-west-1,ca-central-1,us-east-2,us-east-1,sa-east-1
+IE;Ireland;eu-west-1;eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,ca-central-1,us-east-1,me-south-1,us-east-2,us-west-2,ap-south-1,us-west-1,ap-northeast-2,sa-east-1,ap-northeast-3,ap-northeast-1,ap-east-1,af-south-1,ap-southeast-1,ap-southeast-2
+IL;Israel;me-south-1;me-south-1,eu-south-1,eu-central-1,eu-west-3,eu-north-1,eu-west-2,ap-south-1,eu-west-1,af-south-1,ap-east-1,ap-southeast-1,ap-northeast-2,ca-central-1,ap-northeast-3,ap-northeast-1,us-east-1,us-east-2,sa-east-1,us-west-2,us-west-1,ap-southeast-2
+IM;Isle of Man;eu-west-1;None
+IN;India;ap-south-1;ap-south-1,me-south-1,ap-southeast-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,eu-north-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,af-south-1,ap-southeast-2,ca-central-1,us-west-2,us-east-2,us-east-1,us-west-1,sa-east-1
+IO;British Indian Ocean Territory;ap-south-1;ap-south-1,ap-southeast-1,me-south-1,ap-east-1,af-south-1,ap-northeast-2,ap-northeast-3,eu-south-1,ap-northeast-1,eu-north-1,ap-southeast-2,eu-central-1,eu-west-3,eu-west-2,eu-west-1,sa-east-1,ca-central-1,us-west-2,us-east-1,us-east-2,us-west-1
+IQ;Iraq;me-south-1;me-south-1,ap-south-1,eu-south-1,eu-central-1,eu-north-1,eu-west-3,eu-west-2,eu-west-1,ap-east-1,ap-southeast-1,ap-northeast-2,af-south-1,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,us-west-2,sa-east-1,us-west-1,ap-southeast-2
+IR;Iran, Islamic Republic of;me-south-1;me-south-1,ap-south-1,eu-north-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,ap-east-1,ap-southeast-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,af-south-1,ca-central-1,us-east-1,us-east-2,us-west-2,sa-east-1,us-west-1,ap-southeast-2
+IS;Iceland;eu-west-1;eu-west-1,eu-west-2,eu-north-1,eu-west-3,eu-central-1,eu-south-1,ca-central-1,us-east-1,us-east-2,us-west-2,me-south-1,us-west-1,ap-south-1,ap-northeast-2,ap-northeast-1,ap-northeast-3,ap-east-1,sa-east-1,ap-southeast-1,af-south-1,ap-southeast-2
+IT;Italy;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,af-south-1,ap-northeast-2,ap-east-1,us-west-2,sa-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,us-west-1,ap-southeast-2
+JE;Jersey;eu-west-1;None
+JM;Jamaica;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,sa-east-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-south-1,ap-southeast-2,ap-east-1,ap-southeast-1
+JO;Jordan;me-south-1;me-south-1,eu-south-1,eu-central-1,eu-north-1,eu-west-3,eu-west-2,ap-south-1,eu-west-1,af-south-1,ap-east-1,ap-southeast-1,ap-northeast-2,ap-northeast-3,ca-central-1,ap-northeast-1,us-east-1,us-east-2,sa-east-1,us-west-2,us-west-1,ap-southeast-2
+JP;Japan;ap-northeast-1;ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1,ap-southeast-1,ap-south-1,us-west-2,ap-southeast-2,eu-north-1,me-south-1,us-west-1,eu-central-1,eu-west-2,eu-west-1,eu-south-1,eu-west-3,ca-central-1,us-east-2,us-east-1,af-south-1,sa-east-1
+KE;Kenya;me-south-1;me-south-1,ap-south-1,af-south-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,ap-southeast-1,ap-east-1,sa-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ca-central-1,ap-southeast-2,us-east-1,us-east-2,us-west-2,us-west-1
+KG;Kyrgyzstan;ap-south-1;ap-south-1,me-south-1,ap-east-1,eu-north-1,ap-northeast-2,eu-central-1,eu-south-1,ap-northeast-3,ap-southeast-1,ap-northeast-1,eu-west-3,eu-west-2,eu-west-1,ca-central-1,af-south-1,us-west-2,us-east-2,us-east-1,us-west-1,ap-southeast-2,sa-east-1
+KH;Cambodia;ap-southeast-1;ap-southeast-1,ap-east-1,ap-south-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,me-south-1,ap-southeast-2,eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,af-south-1,us-west-2,us-west-1,ca-central-1,us-east-2,us-east-1,sa-east-1
+KI;Kiribati;ap-southeast-2;ap-southeast-2,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1,ap-southeast-1,us-west-1,us-west-2,ap-south-1,us-east-2,us-east-1,ca-central-1,eu-north-1,me-south-1,eu-west-1,eu-central-1,eu-west-2,eu-west-3,eu-south-1,sa-east-1,af-south-1
+KM;Comoros;af-south-1;af-south-1,me-south-1,ap-south-1,ap-southeast-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,ap-east-1,eu-west-1,sa-east-1,ap-northeast-2,ap-southeast-2,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1
+KN;Saint Kitts and Nevis;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,eu-west-1,us-west-1,us-west-2,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-east-1,ap-southeast-2,ap-southeast-1
+KP;Korea, Democratic People's Republic of;ap-northeast-2;ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-east-1,ap-southeast-1,ap-south-1,me-south-1,eu-north-1,us-west-2,eu-central-1,ap-southeast-2,eu-west-2,eu-south-1,eu-west-3,eu-west-1,us-west-1,ca-central-1,us-east-2,us-east-1,af-south-1,sa-east-1
+KR;Korea, Republic of;ap-northeast-2;ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-east-1,ap-southeast-1,ap-south-1,me-south-1,eu-north-1,ap-southeast-2,us-west-2,eu-central-1,eu-south-1,eu-west-2,eu-west-3,us-west-1,eu-west-1,ca-central-1,us-east-2,us-east-1,af-south-1,sa-east-1
+KW;Kuwait;me-south-1;me-south-1,ap-south-1,eu-south-1,eu-north-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,ap-east-1,ap-southeast-1,ap-northeast-2,af-south-1,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,us-west-2,sa-east-1,us-west-1,ap-southeast-2
+KY;Cayman Islands;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,sa-east-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,ap-northeast-1,me-south-1,ap-northeast-3,ap-northeast-2,ap-southeast-2,ap-south-1,ap-east-1,ap-southeast-1
+KZ;Kazakhstan;me-south-1;me-south-1,ap-south-1,eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,ap-northeast-2,ap-east-1,eu-west-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,ca-central-1,us-west-2,us-east-2,us-east-1,af-south-1,us-west-1,ap-southeast-2,sa-east-1
+LA;Lao People's Democratic Republic;ap-east-1;ap-east-1,ap-southeast-1,ap-northeast-2,ap-south-1,ap-northeast-3,ap-northeast-1,me-south-1,ap-southeast-2,eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,af-south-1,us-west-2,us-west-1,ca-central-1,us-east-2,us-east-1,sa-east-1
+LB;Lebanon;me-south-1;me-south-1,eu-south-1,eu-central-1,eu-north-1,eu-west-3,eu-west-2,ap-south-1,eu-west-1,ap-east-1,af-south-1,ap-northeast-2,ap-southeast-1,ca-central-1,ap-northeast-3,ap-northeast-1,us-east-1,us-east-2,sa-east-1,us-west-2,us-west-1,ap-southeast-2
+LC;Saint Lucia;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,eu-west-1,us-west-1,eu-west-2,us-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-east-1,ap-southeast-2,ap-southeast-1
+LI;Liechtenstein;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,eu-north-1,me-south-1,ca-central-1,ap-south-1,us-east-1,us-east-2,us-west-2,ap-northeast-2,af-south-1,ap-east-1,ap-northeast-3,us-west-1,ap-northeast-1,sa-east-1,ap-southeast-1,ap-southeast-2
+LK;Sri Lanka;ap-south-1;ap-south-1,ap-southeast-1,me-south-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,eu-north-1,af-south-1,eu-south-1,eu-central-1,eu-west-3,ap-southeast-2,eu-west-2,eu-west-1,us-west-2,ca-central-1,sa-east-1,us-west-1,us-east-2,us-east-1
+LR;Liberia;eu-south-1;eu-south-1,eu-west-3,eu-west-2,eu-central-1,eu-west-1,sa-east-1,af-south-1,eu-north-1,me-south-1,ca-central-1,us-east-1,us-east-2,ap-south-1,us-west-2,us-west-1,ap-southeast-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-southeast-2
+LS;Lesotho;ap-southeast-1;af-south-1,me-south-1,ap-south-1,sa-east-1,eu-south-1,ap-southeast-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,eu-north-1,ap-southeast-2,ap-east-1,ap-northeast-2,ca-central-1,ap-northeast-3,us-east-1,ap-northeast-1,us-east-2,us-west-2,us-west-1
+LT;Lithuania;eu-north-1;eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-northeast-2,ap-east-1,ap-northeast-3,ap-northeast-1,us-west-2,us-west-1,ap-southeast-1,af-south-1,sa-east-1,ap-southeast-2
+LU;Luxembourg;eu-central-1;eu-central-1,eu-west-3,eu-west-2,eu-south-1,eu-west-1,eu-north-1,me-south-1,ca-central-1,us-east-1,us-east-2,ap-south-1,us-west-2,ap-northeast-2,us-west-1,ap-east-1,af-south-1,ap-northeast-3,ap-northeast-1,sa-east-1,ap-southeast-1,ap-southeast-2
+LV;Latvia;eu-north-1;eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,me-south-1,ap-south-1,ca-central-1,ap-northeast-2,us-east-1,us-east-2,ap-east-1,ap-northeast-3,ap-northeast-1,us-west-2,us-west-1,ap-southeast-1,af-south-1,sa-east-1,ap-southeast-2
+LY;Libyan Arab Jamahiriya;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,me-south-1,eu-west-1,eu-north-1,ap-south-1,af-south-1,ca-central-1,sa-east-1,us-east-1,us-east-2,ap-southeast-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,us-west-2,us-west-1,ap-southeast-2
+MA;Morocco;eu-south-1;eu-south-1,eu-west-3,eu-west-2,eu-central-1,eu-west-1,eu-north-1,me-south-1,ca-central-1,us-east-1,us-east-2,sa-east-1,af-south-1,ap-south-1,us-west-2,us-west-1,ap-northeast-2,ap-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,ap-southeast-2
+MC;Monaco;eu-south-1;eu-south-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,eu-north-1,me-south-1,ca-central-1,ap-south-1,us-east-1,us-east-2,af-south-1,us-west-2,ap-northeast-2,sa-east-1,ap-east-1,us-west-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,ap-southeast-2
+MD;Moldova, Republic of;eu-south-1;eu-south-1,eu-north-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,me-south-1,ap-south-1,ca-central-1,ap-northeast-2,ap-east-1,us-east-1,us-east-2,ap-northeast-3,ap-northeast-1,ap-southeast-1,af-south-1,us-west-2,us-west-1,sa-east-1,ap-southeast-2
+ME;Montenegro;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,af-south-1,ap-northeast-2,ap-east-1,ap-northeast-3,ap-southeast-1,ap-northeast-1,us-west-2,sa-east-1,us-west-1,ap-southeast-2
+MF;Saint Martin;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,us-west-1,eu-west-1,us-west-2,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-south-1,ap-northeast-2,ap-northeast-3,ap-east-1,ap-southeast-2,ap-southeast-1
+MG;Madagascar;af-south-1;af-south-1,me-south-1,ap-south-1,ap-southeast-1,eu-south-1,ap-east-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,sa-east-1,eu-west-1,ap-southeast-2,ap-northeast-2,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1
+MH;Marshall Islands;ap-northeast-1;ap-northeast-1,ap-northeast-3,ap-southeast-2,ap-northeast-2,ap-east-1,ap-southeast-1,us-west-2,us-west-1,ap-south-1,us-east-2,us-east-1,ca-central-1,eu-north-1,me-south-1,eu-west-1,eu-central-1,eu-west-2,eu-west-3,eu-south-1,af-south-1,sa-east-1
+MK;Macedonia;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-north-1,eu-west-2,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-northeast-2,af-south-1,ap-east-1,ap-northeast-3,ap-southeast-1,ap-northeast-1,us-west-2,sa-east-1,us-west-1,ap-southeast-2
+ML;Mali;eu-south-1;eu-south-1,eu-west-3,eu-west-2,eu-central-1,eu-west-1,eu-north-1,me-south-1,af-south-1,sa-east-1,ca-central-1,us-east-1,us-east-2,ap-south-1,us-west-2,us-west-1,ap-southeast-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-southeast-2
+MM;Myanmar;ap-east-1;ap-east-1,ap-southeast-1,ap-south-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,me-south-1,eu-north-1,eu-central-1,eu-south-1,ap-southeast-2,eu-west-3,eu-west-2,eu-west-1,af-south-1,us-west-2,us-west-1,ca-central-1,us-east-2,us-east-1,sa-east-1
+MN;Mongolia;ap-northeast-2;ap-northeast-2,ap-east-1,ap-northeast-3,ap-northeast-1,ap-south-1,ap-southeast-1,me-south-1,eu-north-1,eu-central-1,eu-south-1,eu-west-2,eu-west-3,eu-west-1,us-west-2,us-west-1,ca-central-1,ap-southeast-2,us-east-2,us-east-1,af-south-1,sa-east-1
+MO;Macao;ap-east-1;ap-east-1,ap-northeast-2,ap-southeast-1,ap-northeast-3,ap-northeast-1,ap-south-1,me-south-1,ap-southeast-2,eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,us-west-2,us-west-1,af-south-1,ca-central-1,us-east-2,us-east-1,sa-east-1
+MP;Northern Mariana Islands;ap-northeast-1;ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1,ap-southeast-1,ap-southeast-2,ap-south-1,us-west-2,us-west-1,me-south-1,eu-north-1,eu-central-1,eu-west-2,eu-south-1,eu-west-1,eu-west-3,us-east-2,ca-central-1,us-east-1,af-south-1,sa-east-1
+MQ;Martinique;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,eu-west-1,us-west-1,eu-west-2,us-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-east-1,ap-southeast-2,ap-southeast-1
+MR;Mauritania;eu-south-1;eu-south-1,eu-west-3,eu-west-2,eu-west-1,eu-central-1,eu-north-1,sa-east-1,ca-central-1,me-south-1,us-east-1,af-south-1,us-east-2,ap-south-1,us-west-2,us-west-1,ap-northeast-2,ap-east-1,ap-southeast-1,ap-northeast-3,ap-northeast-1,ap-southeast-2
+MS;Montserrat;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,eu-west-1,us-west-1,us-west-2,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-east-1,ap-southeast-2,ap-southeast-1
+MT;Malta;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,eu-north-1,me-south-1,ap-south-1,ca-central-1,af-south-1,us-east-1,us-east-2,sa-east-1,ap-northeast-2,ap-east-1,ap-southeast-1,us-west-2,ap-northeast-3,ap-northeast-1,us-west-1,ap-southeast-2
+MU;Mauritius;af-south-1;af-south-1,ap-south-1,me-south-1,ap-southeast-1,ap-east-1,eu-south-1,ap-southeast-2,eu-central-1,eu-west-3,eu-north-1,ap-northeast-2,eu-west-2,ap-northeast-3,eu-west-1,sa-east-1,ap-northeast-1,ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1
+MV;Maldives;ap-south-1;ap-south-1,ap-southeast-1,me-south-1,ap-east-1,ap-northeast-2,af-south-1,ap-northeast-3,ap-northeast-1,eu-south-1,eu-north-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,ap-southeast-2,sa-east-1,ca-central-1,us-west-2,us-east-1,us-east-2,us-west-1
+MW;Malawi;af-south-1;af-south-1,me-south-1,ap-south-1,eu-south-1,eu-central-1,eu-west-3,ap-southeast-1,eu-west-2,eu-north-1,eu-west-1,sa-east-1,ap-east-1,ap-northeast-2,ap-southeast-2,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1
+MX;Mexico;us-west-1;us-west-1,us-east-2,us-east-1,us-west-2,ca-central-1,sa-east-1,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-southeast-2,ap-east-1,me-south-1,af-south-1,ap-south-1,ap-southeast-1
+MY;Malaysia;ap-southeast-1;ap-southeast-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-south-1,ap-southeast-2,me-south-1,eu-north-1,af-south-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,us-west-2,us-west-1,ca-central-1,us-east-2,us-east-1,sa-east-1
+MZ;Mozambique;af-south-1;af-south-1,me-south-1,ap-south-1,eu-south-1,ap-southeast-1,eu-central-1,eu-west-3,sa-east-1,eu-west-2,eu-north-1,eu-west-1,ap-east-1,ap-southeast-2,ap-northeast-2,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1
+NA;Namibia;eu-west-1;af-south-1,sa-east-1,me-south-1,eu-south-1,ap-south-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,eu-north-1,ap-southeast-1,ap-east-1,ca-central-1,us-east-1,ap-southeast-2,us-east-2,ap-northeast-2,ap-northeast-3,ap-northeast-1,us-west-2,us-west-1
+NC;New Caledonia;ap-southeast-2;ap-southeast-2,ap-northeast-1,ap-northeast-3,ap-southeast-1,ap-east-1,ap-northeast-2,us-west-1,us-west-2,ap-south-1,af-south-1,us-east-2,me-south-1,us-east-1,sa-east-1,ca-central-1,eu-north-1,eu-central-1,eu-west-1,eu-west-2,eu-south-1,eu-west-3
+NE;Niger;eu-south-1;eu-south-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,me-south-1,eu-north-1,af-south-1,ap-south-1,sa-east-1,ca-central-1,us-east-1,us-east-2,ap-southeast-1,ap-east-1,ap-northeast-2,us-west-2,us-west-1,ap-northeast-3,ap-northeast-1,ap-southeast-2
+NF;Norfolk Island;ap-southeast-2;ap-southeast-2,ap-southeast-1,ap-northeast-1,ap-northeast-3,ap-east-1,ap-northeast-2,us-west-1,us-west-2,ap-south-1,af-south-1,sa-east-1,us-east-2,us-east-1,me-south-1,ca-central-1,eu-north-1,eu-central-1,eu-west-1,eu-west-2,eu-south-1,eu-west-3
+NG;Nigeria;eu-south-1;eu-south-1,eu-west-3,eu-central-1,eu-west-2,me-south-1,eu-west-1,af-south-1,eu-north-1,sa-east-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-southeast-1,ap-east-1,ap-northeast-2,us-west-2,ap-northeast-3,us-west-1,ap-northeast-1,ap-southeast-2
+NI;Nicaragua;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,sa-east-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-southeast-2,ap-east-1,ap-south-1,ap-southeast-1
+NL;Netherlands;eu-west-1;eu-central-1,eu-west-2,eu-west-3,eu-south-1,eu-west-1,eu-north-1,me-south-1,ca-central-1,us-east-1,us-east-2,ap-south-1,us-west-2,ap-northeast-2,us-west-1,ap-northeast-3,ap-east-1,ap-northeast-1,af-south-1,sa-east-1,ap-southeast-1,ap-southeast-2
+NO;Norway;eu-north-1;eu-north-1,eu-central-1,eu-west-2,eu-west-1,eu-west-3,eu-south-1,me-south-1,ca-central-1,us-east-1,us-east-2,ap-south-1,us-west-2,ap-northeast-2,us-west-1,ap-northeast-3,ap-northeast-1,ap-east-1,ap-southeast-1,af-south-1,sa-east-1,ap-southeast-2
+NP;Nepal;ap-south-1;ap-south-1,ap-east-1,me-south-1,ap-southeast-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,eu-north-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,af-south-1,ap-southeast-2,us-west-2,ca-central-1,us-west-1,us-east-2,us-east-1,sa-east-1
+NR;Nauru;ap-southeast-2;ap-southeast-2,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1,ap-southeast-1,us-west-1,us-west-2,ap-south-1,us-east-2,us-east-1,ca-central-1,me-south-1,eu-north-1,eu-west-1,eu-central-1,eu-west-2,eu-west-3,eu-south-1,af-south-1,sa-east-1
+NU;Niue;ap-southeast-2;ap-southeast-2,us-west-1,ap-northeast-1,ap-northeast-3,us-west-2,ap-northeast-2,ap-east-1,ap-southeast-1,us-east-2,us-east-1,ca-central-1,sa-east-1,ap-south-1,af-south-1,eu-north-1,me-south-1,eu-west-1,eu-west-2,eu-central-1,eu-west-3,eu-south-1
+NZ;New Zealand;ap-southeast-2;ap-southeast-2,ap-southeast-1,ap-northeast-1,ap-northeast-3,ap-east-1,ap-northeast-2,us-west-1,af-south-1,us-west-2,sa-east-1,ap-south-1,us-east-2,us-east-1,me-south-1,ca-central-1,eu-north-1,eu-central-1,eu-west-1,eu-south-1,eu-west-2,eu-west-3
+O1;Other Country;us-east-1;None
+OM;Oman;me-south-1;me-south-1,ap-south-1,eu-south-1,eu-north-1,eu-central-1,ap-southeast-1,eu-west-3,ap-east-1,eu-west-2,eu-west-1,ap-northeast-2,af-south-1,ap-northeast-3,ap-northeast-1,ca-central-1,ap-southeast-2,us-east-1,us-east-2,sa-east-1,us-west-2,us-west-1
+PA;Panama;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-northeast-3,ap-southeast-2,ap-northeast-2,ap-south-1,ap-east-1,ap-southeast-1
+PE;Peru;sa-east-1;sa-east-1,us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,eu-west-1,af-south-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,ap-southeast-2,me-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-south-1,ap-east-1,ap-southeast-1
+PF;French Polynesia;us-west-1;us-west-1,us-west-2,ap-southeast-2,us-east-2,us-east-1,ca-central-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1,ap-southeast-1,eu-west-1,af-south-1,eu-west-2,eu-north-1,eu-west-3,eu-central-1,eu-south-1,ap-south-1,me-south-1
+PG;Papua New Guinea;ap-southeast-2;ap-southeast-2,ap-northeast-1,ap-northeast-3,ap-east-1,ap-southeast-1,ap-northeast-2,ap-south-1,us-west-2,us-west-1,me-south-1,eu-north-1,af-south-1,us-east-2,eu-central-1,eu-south-1,ca-central-1,eu-west-2,eu-west-3,us-east-1,eu-west-1,sa-east-1
+PH;Philippines;ap-east-1;ap-east-1,ap-southeast-1,ap-northeast-3,ap-northeast-2,ap-northeast-1,ap-south-1,ap-southeast-2,me-south-1,eu-north-1,eu-central-1,eu-south-1,us-west-2,eu-west-3,eu-west-2,eu-west-1,us-west-1,af-south-1,ca-central-1,us-east-2,us-east-1,sa-east-1
+PK;Pakistan;ap-south-1;ap-south-1,me-south-1,ap-east-1,ap-southeast-1,eu-north-1,ap-northeast-2,eu-south-1,eu-central-1,eu-west-3,ap-northeast-3,eu-west-2,ap-northeast-1,eu-west-1,af-south-1,ca-central-1,ap-southeast-2,us-west-2,us-east-2,us-east-1,us-west-1,sa-east-1
+PL;Poland;eu-north-1;eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-northeast-2,ap-east-1,ap-northeast-3,us-west-2,ap-northeast-1,us-west-1,ap-southeast-1,af-south-1,sa-east-1,ap-southeast-2
+PM;Saint Pierre and Miquelon;ca-central-1;ca-central-1,us-east-1,us-east-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,us-west-2,us-west-1,sa-east-1,me-south-1,ap-northeast-2,ap-northeast-1,ap-northeast-3,ap-south-1,af-south-1,ap-east-1,ap-southeast-1,ap-southeast-2
+PN;Pitcairn;us-west-1;None
+PR;Puerto Rico;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,ap-east-1,ap-southeast-2,ap-southeast-1
+PS;Palestinian Territory;me-south-1;me-south-1,eu-south-1,eu-central-1,eu-north-1,eu-west-3,eu-west-2,ap-south-1,eu-west-1,af-south-1,ap-east-1,ap-southeast-1,ap-northeast-2,ca-central-1,ap-northeast-3,ap-northeast-1,us-east-1,us-east-2,sa-east-1,us-west-2,us-west-1,ap-southeast-2
+PT;Portugal;eu-west-3;eu-west-3,eu-west-2,eu-west-1,eu-south-1,eu-central-1,eu-north-1,ca-central-1,me-south-1,us-east-1,us-east-2,ap-south-1,sa-east-1,us-west-2,af-south-1,us-west-1,ap-northeast-2,ap-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,ap-southeast-2
+PW;Palau;ap-east-1;ap-east-1,ap-northeast-3,ap-northeast-1,ap-northeast-2,ap-southeast-1,ap-southeast-2,ap-south-1,me-south-1,us-west-2,us-west-1,eu-north-1,eu-central-1,eu-south-1,eu-west-2,eu-west-3,eu-west-1,af-south-1,us-east-2,ca-central-1,us-east-1,sa-east-1
+PY;Paraguay;sa-east-1;sa-east-1,us-east-1,af-south-1,us-east-2,ca-central-1,us-west-1,eu-west-1,eu-west-3,eu-west-2,us-west-2,eu-south-1,eu-central-1,eu-north-1,me-south-1,ap-southeast-2,ap-south-1,ap-southeast-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1
+QA;Qatar;me-south-1;me-south-1,ap-south-1,eu-south-1,eu-north-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,ap-southeast-1,ap-east-1,ap-northeast-2,af-south-1,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,sa-east-1,us-west-2,ap-southeast-2,us-west-1
+RE;Reunion;af-south-1;af-south-1,ap-south-1,me-south-1,ap-southeast-1,ap-east-1,eu-south-1,eu-central-1,ap-southeast-2,eu-west-3,eu-north-1,eu-west-2,ap-northeast-2,sa-east-1,eu-west-1,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1
+RO;Romania;eu-south-1;eu-south-1,eu-central-1,eu-north-1,eu-west-3,eu-west-2,eu-west-1,me-south-1,ap-south-1,ca-central-1,ap-northeast-2,us-east-1,us-east-2,ap-east-1,ap-northeast-3,ap-northeast-1,af-south-1,ap-southeast-1,us-west-2,us-west-1,sa-east-1,ap-southeast-2
+RS;Serbia;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-north-1,eu-west-2,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-northeast-2,ap-east-1,af-south-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,us-west-2,sa-east-1,us-west-1,ap-southeast-2
+RU;Russian Federation;ap-northeast-2;ap-northeast-2,ap-northeast-3,ap-northeast-1,eu-north-1,ap-east-1,ap-south-1,me-south-1,eu-central-1,eu-west-2,eu-south-1,eu-west-3,eu-west-1,ap-southeast-1,us-west-2,ca-central-1,us-west-1,us-east-2,us-east-1,ap-southeast-2,af-south-1,sa-east-1
+RW;Rwanda;af-south-1;af-south-1,me-south-1,ap-south-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,ap-southeast-1,sa-east-1,ap-east-1,ap-northeast-2,ca-central-1,ap-northeast-3,us-east-1,ap-northeast-1,us-east-2,ap-southeast-2,us-west-2,us-west-1
+SA;Saudi Arabia;me-south-1;me-south-1,ap-south-1,eu-south-1,eu-central-1,eu-north-1,eu-west-3,eu-west-2,eu-west-1,ap-southeast-1,ap-east-1,af-south-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,sa-east-1,us-west-2,ap-southeast-2,us-west-1
+SB;Solomon Islands;ap-southeast-2;ap-southeast-2,ap-northeast-1,ap-northeast-3,ap-east-1,ap-northeast-2,ap-southeast-1,us-west-1,us-west-2,ap-south-1,me-south-1,us-east-2,us-east-1,eu-north-1,ca-central-1,af-south-1,eu-central-1,eu-west-2,eu-west-1,eu-south-1,eu-west-3,sa-east-1
+SC;Seychelles;ap-south-1;ap-south-1,me-south-1,af-south-1,ap-southeast-1,ap-east-1,eu-south-1,eu-central-1,eu-north-1,eu-west-3,eu-west-2,ap-northeast-2,eu-west-1,ap-northeast-3,ap-northeast-1,ap-southeast-2,sa-east-1,ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1
+SD;Sudan;me-south-1;me-south-1,eu-south-1,eu-central-1,eu-west-3,ap-south-1,eu-west-2,eu-north-1,eu-west-1,af-south-1,ap-southeast-1,ap-east-1,sa-east-1,ap-northeast-2,ca-central-1,ap-northeast-3,us-east-1,ap-northeast-1,us-east-2,us-west-2,us-west-1,ap-southeast-2
+SE;Sweden;eu-north-1;eu-north-1,eu-central-1,eu-west-2,eu-west-3,eu-west-1,eu-south-1,me-south-1,ca-central-1,ap-south-1,us-east-1,us-east-2,ap-northeast-2,us-west-2,ap-northeast-3,ap-northeast-1,ap-east-1,us-west-1,ap-southeast-1,af-south-1,sa-east-1,ap-southeast-2
+SG;Singapore;ap-southeast-1;ap-southeast-1,ap-east-1,ap-south-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-southeast-2,me-south-1,eu-north-1,af-south-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,us-west-2,us-west-1,ca-central-1,us-east-2,us-east-1,sa-east-1
+SH;Saint Helena;af-south-1;af-south-1,sa-east-1,eu-south-1,eu-west-3,eu-central-1,eu-west-2,me-south-1,eu-west-1,eu-north-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-southeast-1,us-west-1,us-west-2,ap-east-1,ap-southeast-2,ap-northeast-2,ap-northeast-3,ap-northeast-1
+SI;Slovenia;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-northeast-2,af-south-1,ap-east-1,us-west-2,ap-northeast-3,ap-northeast-1,us-west-1,ap-southeast-1,sa-east-1,ap-southeast-2
+SJ;Svalbard and Jan Mayen;eu-north-1;eu-north-1,eu-west-1,eu-west-2,eu-central-1,eu-west-3,eu-south-1,ca-central-1,us-east-2,me-south-1,us-west-2,us-east-1,ap-northeast-2,ap-northeast-1,ap-northeast-3,us-west-1,ap-south-1,ap-east-1,ap-southeast-1,sa-east-1,af-south-1,ap-southeast-2
+SK;Slovakia;eu-central-1;eu-central-1,eu-south-1,eu-north-1,eu-west-3,eu-west-2,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-northeast-2,ap-east-1,ap-northeast-3,us-west-2,ap-northeast-1,af-south-1,ap-southeast-1,us-west-1,sa-east-1,ap-southeast-2
+SL;Sierra Leone;eu-south-1;eu-south-1,eu-west-3,eu-west-2,eu-central-1,eu-west-1,sa-east-1,af-south-1,eu-north-1,me-south-1,ca-central-1,us-east-1,us-east-2,ap-south-1,us-west-2,us-west-1,ap-southeast-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-southeast-2
+SM;San Marino;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,af-south-1,ap-northeast-2,us-west-2,ap-east-1,ap-northeast-3,sa-east-1,ap-northeast-1,us-west-1,ap-southeast-1,ap-southeast-2
+SN;Senegal;eu-south-1;eu-south-1,eu-west-3,eu-west-2,eu-west-1,eu-central-1,sa-east-1,eu-north-1,af-south-1,ca-central-1,me-south-1,us-east-1,us-east-2,ap-south-1,us-west-2,us-west-1,ap-southeast-1,ap-northeast-2,ap-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-2
+SO;Somalia;me-south-1;me-south-1,ap-south-1,eu-south-1,eu-central-1,af-south-1,eu-north-1,eu-west-3,ap-southeast-1,eu-west-2,eu-west-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,sa-east-1,ca-central-1,ap-southeast-2,us-east-1,us-east-2,us-west-2,us-west-1
+SR;Suriname;sa-east-1;sa-east-1,us-east-1,us-east-2,ca-central-1,eu-west-1,eu-west-2,eu-west-3,us-west-1,eu-south-1,eu-central-1,us-west-2,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-southeast-2,ap-east-1,ap-southeast-1
+SS;South Sudan;me-south-1;me-south-1,eu-south-1,af-south-1,eu-central-1,eu-west-3,ap-south-1,eu-west-2,eu-north-1,eu-west-1,sa-east-1,ap-southeast-1,ap-east-1,ca-central-1,ap-northeast-2,us-east-1,us-east-2,ap-northeast-3,ap-northeast-1,us-west-2,ap-southeast-2,us-west-1
+ST;Sao Tome and Principe;af-south-1;af-south-1,eu-south-1,eu-west-3,me-south-1,eu-central-1,eu-west-2,eu-west-1,sa-east-1,eu-north-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-southeast-1,ap-east-1,ap-northeast-2,us-west-2,us-west-1,ap-northeast-3,ap-northeast-1,ap-southeast-2
+SV;El Salvador;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,sa-east-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-southeast-2,me-south-1,ap-east-1,ap-south-1,ap-southeast-1
+SX;Sint Maarten;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,us-west-1,eu-west-1,us-west-2,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-south-1,ap-northeast-2,ap-northeast-3,ap-east-1,ap-southeast-2,ap-southeast-1
+SY;Syrian Arab Republic;me-south-1;me-south-1,eu-south-1,eu-central-1,eu-north-1,eu-west-3,eu-west-2,ap-south-1,eu-west-1,ap-east-1,ap-northeast-2,ap-southeast-1,af-south-1,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,us-west-2,sa-east-1,us-west-1,ap-southeast-2
+SZ;Swaziland;ap-southeast-1;af-south-1,me-south-1,ap-south-1,sa-east-1,eu-south-1,ap-southeast-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,ap-east-1,ap-southeast-2,ap-northeast-2,ap-northeast-3,ca-central-1,ap-northeast-1,us-east-1,us-east-2,us-west-2,us-west-1
+TC;Turks and Caicos Islands;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,sa-east-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-south-1,ap-east-1,ap-southeast-2,ap-southeast-1
+TD;Chad;me-south-1;me-south-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,eu-north-1,af-south-1,ap-south-1,sa-east-1,ca-central-1,ap-southeast-1,us-east-1,ap-east-1,us-east-2,ap-northeast-2,ap-northeast-3,ap-northeast-1,us-west-2,us-west-1,ap-southeast-2
+TF;French Southern Territories;af-south-1;af-south-1,ap-southeast-1,ap-south-1,ap-southeast-2,me-south-1,ap-east-1,sa-east-1,ap-northeast-2,ap-northeast-3,eu-south-1,ap-northeast-1,eu-central-1,eu-west-3,eu-north-1,eu-west-2,eu-west-1,ca-central-1,us-east-1,us-east-2,us-west-1,us-west-2
+TG;Togo;eu-south-1;eu-south-1,eu-west-3,eu-central-1,eu-west-2,af-south-1,eu-west-1,me-south-1,eu-north-1,sa-east-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-southeast-1,us-west-2,ap-east-1,us-west-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-southeast-2
+TH;Thailand;ap-southeast-1;ap-southeast-1,ap-east-1,ap-south-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,me-south-1,ap-southeast-2,eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,af-south-1,us-west-2,us-west-1,ca-central-1,us-east-2,us-east-1,sa-east-1
+TJ;Tajikistan;ap-south-1;ap-south-1,me-south-1,eu-north-1,ap-east-1,ap-northeast-2,eu-central-1,eu-south-1,ap-southeast-1,eu-west-3,eu-west-2,ap-northeast-3,ap-northeast-1,eu-west-1,af-south-1,ca-central-1,us-west-2,us-east-2,us-east-1,us-west-1,ap-southeast-2,sa-east-1
+TK;Tokelau;ap-southeast-2;ap-southeast-2,ap-northeast-1,us-west-1,ap-northeast-3,us-west-2,ap-northeast-2,ap-east-1,ap-southeast-1,us-east-2,us-east-1,ca-central-1,ap-south-1,sa-east-1,eu-north-1,eu-west-1,af-south-1,me-south-1,eu-west-2,eu-central-1,eu-west-3,eu-south-1
+TL;Timor-Leste;ap-southeast-1;None
+TM;Turkmenistan;me-south-1;me-south-1,ap-south-1,eu-north-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,ap-east-1,ap-northeast-2,ap-southeast-1,ap-northeast-3,ap-northeast-1,af-south-1,ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1,ap-southeast-2,sa-east-1
+TN;Tunisia;eu-south-1;eu-south-1,eu-west-3,eu-central-1,eu-west-2,eu-west-1,eu-north-1,me-south-1,ap-south-1,ca-central-1,us-east-1,af-south-1,us-east-2,sa-east-1,ap-northeast-2,us-west-2,ap-east-1,ap-southeast-1,ap-northeast-3,us-west-1,ap-northeast-1,ap-southeast-2
+TO;Tonga;ap-southeast-2;ap-southeast-2,ap-northeast-1,ap-northeast-3,us-west-1,ap-northeast-2,us-west-2,ap-east-1,ap-southeast-1,us-east-2,us-east-1,ca-central-1,sa-east-1,ap-south-1,af-south-1,me-south-1,eu-north-1,eu-west-1,eu-west-2,eu-central-1,eu-west-3,eu-south-1
+TR;Turkey;me-south-1;me-south-1,eu-south-1,eu-central-1,eu-north-1,eu-west-3,eu-west-2,eu-west-1,ap-south-1,ap-east-1,ap-northeast-2,ap-southeast-1,ca-central-1,af-south-1,ap-northeast-3,ap-northeast-1,us-east-1,us-east-2,us-west-2,sa-east-1,us-west-1,ap-southeast-2
+TT;Trinidad and Tobago;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,eu-west-1,us-west-1,eu-west-2,us-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-southeast-2,ap-east-1,ap-southeast-1
+TV;Tuvalu;ap-southeast-2;ap-southeast-2,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1,us-west-1,ap-southeast-1,us-west-2,us-east-2,us-east-1,ap-south-1,ca-central-1,sa-east-1,eu-north-1,me-south-1,af-south-1,eu-west-1,eu-west-2,eu-central-1,eu-west-3,eu-south-1
+TW;Taiwan;ap-east-1;ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ap-southeast-1,ap-south-1,me-south-1,ap-southeast-2,eu-north-1,eu-central-1,eu-south-1,us-west-2,eu-west-2,eu-west-3,eu-west-1,us-west-1,ca-central-1,us-east-2,af-south-1,us-east-1,sa-east-1
+TZ;Tanzania, United Republic of;af-south-1;af-south-1,me-south-1,ap-south-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,ap-southeast-1,eu-west-1,sa-east-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ca-central-1,ap-southeast-2,us-east-1,us-east-2,us-west-2,us-west-1
+UA;Ukraine;eu-north-1;eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,me-south-1,ap-south-1,ap-northeast-2,ca-central-1,ap-east-1,ap-northeast-3,us-east-1,ap-northeast-1,us-east-2,ap-southeast-1,us-west-2,af-south-1,us-west-1,sa-east-1,ap-southeast-2
+UG;Uganda;me-south-1;me-south-1,af-south-1,ap-south-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,ap-southeast-1,sa-east-1,ap-east-1,ap-northeast-2,ca-central-1,ap-northeast-3,ap-northeast-1,us-east-1,us-east-2,ap-southeast-2,us-west-2,us-west-1
+UM;United States Minor Outlying Islands;ap-northeast-1;ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1,ap-southeast-2,us-west-2,ap-southeast-1,us-west-1,ap-south-1,us-east-2,ca-central-1,us-east-1,eu-north-1,me-south-1,eu-west-1,eu-central-1,eu-west-2,eu-west-3,eu-south-1,af-south-1,sa-east-1
+US;United States;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-south-1,ap-southeast-2,af-south-1,ap-southeast-1
+UY;Uruguay;sa-east-1;sa-east-1,af-south-1,us-east-1,us-east-2,ca-central-1,us-west-1,eu-west-1,eu-west-3,eu-west-2,eu-south-1,us-west-2,eu-central-1,ap-southeast-2,eu-north-1,me-south-1,ap-south-1,ap-southeast-1,ap-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2
+UZ;Uzbekistan;me-south-1;me-south-1,ap-south-1,eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,ap-east-1,ap-northeast-2,eu-west-1,ap-southeast-1,ap-northeast-3,ap-northeast-1,ca-central-1,af-south-1,us-west-2,us-east-2,us-east-1,us-west-1,ap-southeast-2,sa-east-1
+VA;Holy See (Vatican City State);eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-west-1,eu-north-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,af-south-1,ap-northeast-2,ap-east-1,us-west-2,sa-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,us-west-1,ap-southeast-2
+VC;Saint Vincent and the Grenadines;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,eu-west-1,us-west-1,us-west-2,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-southeast-2,ap-east-1,ap-southeast-1
+VE;Venezuela;sa-east-1;us-east-1,us-east-2,sa-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-south-1,ap-northeast-3,ap-northeast-2,ap-southeast-2,ap-east-1,ap-southeast-1
+VG;Virgin Islands, British;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,us-west-1,eu-west-1,us-west-2,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,ap-east-1,ap-southeast-2,ap-southeast-1
+VI;Virgin Islands, U.S.;us-east-1;us-east-1,us-east-2,ca-central-1,sa-east-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-south-1,eu-north-1,af-south-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,ap-east-1,ap-southeast-2,ap-southeast-1
+VN;Vietnam;ap-east-1;ap-east-1,ap-southeast-1,ap-northeast-2,ap-south-1,ap-northeast-3,ap-northeast-1,me-south-1,ap-southeast-2,eu-north-1,eu-central-1,eu-south-1,eu-west-3,eu-west-2,eu-west-1,af-south-1,us-west-2,us-west-1,ca-central-1,us-east-2,us-east-1,sa-east-1
+VU;Vanuatu;ap-southeast-2;ap-southeast-2,ap-northeast-1,ap-northeast-3,ap-east-1,ap-southeast-1,ap-northeast-2,us-west-1,us-west-2,ap-south-1,us-east-2,us-east-1,me-south-1,af-south-1,ca-central-1,sa-east-1,eu-north-1,eu-central-1,eu-west-1,eu-west-2,eu-west-3,eu-south-1
+WF;Wallis and Futuna;ap-southeast-2;ap-southeast-2,ap-northeast-1,ap-northeast-3,us-west-1,ap-northeast-2,us-west-2,ap-east-1,ap-southeast-1,us-east-2,us-east-1,ca-central-1,ap-south-1,sa-east-1,af-south-1,eu-north-1,me-south-1,eu-west-1,eu-west-2,eu-central-1,eu-west-3,eu-south-1
+WS;Samoa;ap-southeast-2;ap-southeast-2,ap-northeast-1,ap-northeast-3,us-west-1,us-west-2,ap-northeast-2,ap-east-1,ap-southeast-1,us-east-2,us-east-1,ca-central-1,sa-east-1,ap-south-1,af-south-1,eu-north-1,me-south-1,eu-west-1,eu-west-2,eu-central-1,eu-west-3,eu-south-1
+XK;Kosovo;eu-south-1;eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,eu-west-1,me-south-1,ap-south-1,ca-central-1,us-east-1,us-east-2,ap-northeast-2,af-south-1,ap-east-1,ap-northeast-3,ap-northeast-1,ap-southeast-1,us-west-2,sa-east-1,us-west-1,ap-southeast-2
+YE;Yemen;me-south-1;me-south-1,ap-south-1,eu-south-1,eu-central-1,eu-north-1,eu-west-3,eu-west-2,af-south-1,ap-southeast-1,eu-west-1,ap-east-1,ap-northeast-2,ap-northeast-3,ap-northeast-1,ca-central-1,sa-east-1,us-east-1,us-east-2,ap-southeast-2,us-west-2,us-west-1
+YT;Mayotte;af-south-1;af-south-1,me-south-1,ap-south-1,ap-southeast-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,eu-north-1,ap-east-1,eu-west-1,sa-east-1,ap-northeast-2,ap-southeast-2,ap-northeast-3,ap-northeast-1,ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1
+ZA;South Africa;ap-southeast-1;af-south-1,me-south-1,sa-east-1,ap-south-1,eu-south-1,eu-west-3,eu-central-1,ap-southeast-1,eu-west-2,eu-west-1,eu-north-1,ap-southeast-2,ap-east-1,ca-central-1,us-east-1,ap-northeast-2,us-east-2,ap-northeast-3,ap-northeast-1,us-west-2,us-west-1
+ZM;Zambia;eu-west-1;af-south-1,me-south-1,ap-south-1,eu-south-1,eu-central-1,eu-west-3,eu-west-2,sa-east-1,ap-southeast-1,eu-north-1,eu-west-1,ap-east-1,ap-northeast-2,ap-southeast-2,ca-central-1,ap-northeast-3,us-east-1,ap-northeast-1,us-east-2,us-west-2,us-west-1
+ZW;Zimbabwe;eu-west-1;af-south-1,me-south-1,ap-south-1,eu-south-1,sa-east-1,eu-central-1,eu-west-3,ap-southeast-1,eu-west-2,eu-north-1,eu-west-1,ap-east-1,ap-southeast-2,ap-northeast-2,ca-central-1,ap-northeast-3,us-east-1,ap-northeast-1,us-east-2,us-west-2,us-west-1

@@ -1,54 +1,54 @@
-AA;Armed Forces Americas;us-east-1
-AE;Armed Forces Europe, Middle East, & Canada;us-east-1
-AK;Alaska;us-west-2
-AL;Alabama;us-east-2
-AP;Armed Forces Pacific;us-east-1
-AR;Arkansas;us-east-2
-AZ;Arizona;us-west-1
-CA;California;us-west-1
-CO;Colorado;us-west-1
-CT;Connecticut;ca-central-1
-DC;District of Columbia;us-east-1
-DE;Delaware;us-east-1
-FL;Florida;us-east-1
-GA;Georgia;us-east-1
-HI;Hawaii;us-west-1
-IA;Iowa;us-east-2
-ID;Idaho;us-west-2
-IL;Illinois;us-east-2
-IN;Indiana;us-east-2
-KS;Kansas;us-east-2
-KY;Kentucky;us-east-2
-LA;Louisiana;us-east-2
-MA;Massachusetts;ca-central-1
-MD;Maryland;us-east-1
-ME;Maine;ca-central-1
-MI;Michigan;us-east-2
-MN;Minnesota;us-east-2
-MO;Missouri;us-east-2
-MS;Mississippi;us-east-2
-MT;Montana;us-west-2
-NC;North Carolina;us-east-1
-ND;North Dakota;us-east-2
-NE;Nebraska;us-east-2
-NH;New Hampshire;ca-central-1
-NJ;New Jersey;us-east-1
-NM;New Mexico;us-west-1
-NV;Nevada;us-west-1
-NY;New York;ca-central-1
-OH;Ohio;us-east-2
-OK;Oklahoma;us-east-2
-OR;Oregon;us-west-2
-PA;Pennsylvania;us-east-1
-RI;Rhode Island;ca-central-1
-SC;South Carolina;us-east-1
-SD;South Dakota;us-east-2
-TN;Tennessee;us-east-2
-TX;Texas;us-east-2
-UT;Utah;us-west-1
-VA;Virginia;us-east-1
-VT;Vermont;ca-central-1
-WA;Washington;us-west-2
-WI;Wisconsin;us-east-2
-WV;West Virginia;us-east-1
-WY;Wyoming;us-west-1
+AA;Armed Forces Americas;us-east-1;None
+AE;Armed Forces Europe, Middle East, & Canada;us-east-1;None
+AK;Alaska;us-west-2;us-west-2,ap-northeast-1,ap-northeast-3,us-west-1,ap-northeast-2,ap-east-1,us-east-2,ca-central-1,us-east-1,eu-north-1,eu-west-1,eu-west-2,eu-central-1,eu-west-3,ap-southeast-1,eu-south-1,ap-south-1,ap-southeast-2,me-south-1,sa-east-1,af-south-1
+AL;Alabama;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,sa-east-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,af-south-1,ap-east-1,ap-south-1,ap-southeast-2,ap-southeast-1
+AP;Armed Forces Pacific;us-east-1;None
+AR;Arkansas;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-south-1,af-south-1,ap-southeast-2,ap-southeast-1
+AZ;Arizona;us-west-1;us-west-1,us-west-2,us-east-2,us-east-1,ca-central-1,eu-west-1,eu-west-2,eu-north-1,eu-west-3,eu-central-1,sa-east-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1,ap-southeast-2,me-south-1,ap-south-1,ap-southeast-1,af-south-1
+CA;California;us-west-1;us-west-1,us-west-2,us-east-2,us-east-1,ca-central-1,eu-west-1,eu-north-1,ap-northeast-1,eu-west-2,eu-west-3,ap-northeast-3,eu-central-1,ap-northeast-2,eu-south-1,sa-east-1,ap-east-1,ap-southeast-2,me-south-1,ap-south-1,ap-southeast-1,af-south-1
+CO;Colorado;us-west-1;us-west-1,us-west-2,us-east-2,us-east-1,ca-central-1,eu-west-1,eu-west-2,eu-north-1,eu-west-3,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1,me-south-1,ap-southeast-2,ap-south-1,ap-southeast-1,af-south-1
+CT;Connecticut;ca-central-1;ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,af-south-1,ap-east-1,ap-southeast-1,ap-southeast-2
+DC;District of Columbia;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,ap-northeast-1,me-south-1,ap-northeast-2,ap-northeast-3,af-south-1,ap-south-1,ap-east-1,ap-southeast-1,ap-southeast-2
+DE;Delaware;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,af-south-1,ap-south-1,ap-east-1,ap-southeast-1,ap-southeast-2
+FL;Florida;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,sa-east-1,eu-west-3,eu-central-1,eu-north-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,af-south-1,ap-east-1,ap-south-1,ap-southeast-2,ap-southeast-1
+GA;Georgia;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,sa-east-1,eu-central-1,eu-north-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,af-south-1,ap-east-1,ap-south-1,ap-southeast-2,ap-southeast-1
+HI;Hawaii;us-west-1;us-west-1,us-west-2,ap-northeast-1,ap-northeast-3,us-east-2,ap-northeast-2,us-east-1,ca-central-1,ap-southeast-2,ap-east-1,ap-southeast-1,eu-north-1,eu-west-1,eu-west-2,eu-central-1,eu-west-3,eu-south-1,ap-south-1,sa-east-1,me-south-1,af-south-1
+IA;Iowa;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-south-1,af-south-1,ap-southeast-2,ap-southeast-1
+ID;Idaho;us-west-2;us-west-2,us-west-1,us-east-2,us-east-1,ca-central-1,eu-west-1,eu-west-2,eu-north-1,eu-west-3,eu-central-1,ap-northeast-1,ap-northeast-3,eu-south-1,ap-northeast-2,sa-east-1,ap-east-1,me-south-1,ap-southeast-2,ap-south-1,ap-southeast-1,af-south-1
+IL;Illinois;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-south-1,af-south-1,ap-southeast-2,ap-southeast-1
+IN;Indiana;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-south-1,af-south-1,ap-southeast-2,ap-southeast-1
+KS;Kansas;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-south-1,ap-southeast-2,af-south-1,ap-southeast-1
+KY;Kentucky;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,af-south-1,ap-south-1,ap-southeast-2,ap-southeast-1
+LA;Louisiana;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,sa-east-1,eu-central-1,eu-north-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,af-south-1,ap-southeast-2,ap-south-1,ap-southeast-1
+MA;Massachusetts;ca-central-1;ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,af-south-1,ap-east-1,ap-southeast-1,ap-southeast-2
+MD;Maryland;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,af-south-1,ap-south-1,ap-east-1,ap-southeast-1,ap-southeast-2
+ME;Maine;ca-central-1;ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,af-south-1,ap-east-1,ap-southeast-1,ap-southeast-2
+MI;Michigan;us-east-2;us-east-2,ca-central-1,us-east-1,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-south-1,af-south-1,ap-southeast-1,ap-southeast-2
+MN;Minnesota;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-south-1,af-south-1,ap-southeast-2,ap-southeast-1
+MO;Missouri;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-south-1,af-south-1,ap-southeast-2,ap-southeast-1
+MS;Mississippi;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,sa-east-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,af-south-1,ap-south-1,ap-southeast-2,ap-southeast-1
+MT;Montana;us-west-2;us-west-2,us-west-1,us-east-2,us-east-1,ca-central-1,eu-west-1,eu-west-2,eu-north-1,eu-west-3,eu-central-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,sa-east-1,ap-east-1,me-south-1,ap-south-1,ap-southeast-2,ap-southeast-1,af-south-1
+NC;North Carolina;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,af-south-1,ap-east-1,ap-south-1,ap-southeast-2,ap-southeast-1
+ND;North Dakota;us-east-2;us-east-2,us-west-2,us-west-1,us-east-1,ca-central-1,eu-west-1,eu-west-2,eu-north-1,eu-west-3,eu-central-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,sa-east-1,me-south-1,ap-east-1,ap-south-1,ap-southeast-2,ap-southeast-1,af-south-1
+NE;Nebraska;us-east-2;us-east-2,us-east-1,us-west-2,us-west-1,ca-central-1,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-south-1,ap-southeast-2,ap-southeast-1,af-south-1
+NH;New Hampshire;ca-central-1;ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,af-south-1,ap-east-1,ap-southeast-1,ap-southeast-2
+NJ;New Jersey;us-east-1;us-east-1,ca-central-1,us-east-2,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,af-south-1,ap-south-1,ap-east-1,ap-southeast-1,ap-southeast-2
+NM;New Mexico;us-west-1;us-west-1,us-west-2,us-east-2,us-east-1,ca-central-1,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,ap-east-1,me-south-1,ap-southeast-2,ap-south-1,ap-southeast-1,af-south-1
+NV;Nevada;us-west-1;us-west-1,us-west-2,us-east-2,us-east-1,ca-central-1,eu-west-1,eu-west-2,eu-north-1,eu-west-3,ap-northeast-1,eu-central-1,ap-northeast-3,eu-south-1,ap-northeast-2,sa-east-1,ap-east-1,ap-southeast-2,me-south-1,ap-south-1,ap-southeast-1,af-south-1
+NY;New York;ca-central-1;ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,af-south-1,ap-east-1,ap-southeast-1,ap-southeast-2
+OH;Ohio;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-south-1,af-south-1,ap-southeast-2,ap-southeast-1
+OK;Oklahoma;us-east-2;us-east-2,us-east-1,us-west-1,us-west-2,ca-central-1,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,sa-east-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-southeast-2,ap-south-1,af-south-1,ap-southeast-1
+OR;Oregon;us-west-2;us-west-2,us-west-1,us-east-2,us-east-1,ca-central-1,eu-west-1,ap-northeast-1,eu-north-1,eu-west-2,ap-northeast-3,eu-west-3,ap-northeast-2,eu-central-1,eu-south-1,ap-east-1,sa-east-1,me-south-1,ap-southeast-2,ap-south-1,ap-southeast-1,af-south-1
+PA;Pennsylvania;us-east-1;us-east-1,ca-central-1,us-east-2,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,af-south-1,ap-east-1,ap-southeast-1,ap-southeast-2
+RI;Rhode Island;ca-central-1;ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,af-south-1,ap-east-1,ap-southeast-1,ap-southeast-2
+SC;South Carolina;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,sa-east-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,af-south-1,ap-east-1,ap-south-1,ap-southeast-2,ap-southeast-1
+SD;South Dakota;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-north-1,eu-west-3,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-south-1,ap-southeast-2,ap-southeast-1,af-south-1
+TN;Tennessee;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,af-south-1,ap-east-1,ap-south-1,ap-southeast-2,ap-southeast-1
+TX;Texas;us-east-2;us-east-2,us-east-1,us-west-1,us-west-2,ca-central-1,eu-west-1,eu-west-2,eu-west-3,eu-north-1,sa-east-1,eu-central-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-southeast-2,ap-south-1,af-south-1,ap-southeast-1
+UT;Utah;us-west-1;us-west-1,us-west-2,us-east-2,us-east-1,ca-central-1,eu-west-1,eu-west-2,eu-north-1,eu-west-3,eu-central-1,eu-south-1,ap-northeast-1,sa-east-1,ap-northeast-3,ap-northeast-2,ap-east-1,me-south-1,ap-southeast-2,ap-south-1,ap-southeast-1,af-south-1
+VA;Virginia;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,ap-northeast-1,me-south-1,ap-northeast-3,ap-northeast-2,af-south-1,ap-south-1,ap-east-1,ap-southeast-2,ap-southeast-1
+VT;Vermont;ca-central-1;ca-central-1,us-east-1,us-east-2,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,me-south-1,ap-northeast-1,ap-northeast-2,ap-northeast-3,ap-south-1,ap-east-1,af-south-1,ap-southeast-1,ap-southeast-2
+WA;Washington;us-west-2;us-west-2,us-west-1,us-east-2,ca-central-1,us-east-1,eu-west-1,eu-north-1,eu-west-2,ap-northeast-1,eu-west-3,ap-northeast-3,eu-central-1,ap-northeast-2,eu-south-1,ap-east-1,sa-east-1,me-south-1,ap-south-1,ap-southeast-2,ap-southeast-1,af-south-1
+WI;Wisconsin;us-east-2;us-east-2,us-east-1,ca-central-1,us-west-2,us-west-1,eu-west-1,eu-west-2,eu-west-3,eu-north-1,eu-central-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,ap-east-1,ap-south-1,af-south-1,ap-southeast-1,ap-southeast-2
+WV;West Virginia;us-east-1;us-east-1,us-east-2,ca-central-1,us-west-1,us-west-2,eu-west-1,eu-west-2,eu-west-3,eu-central-1,eu-north-1,eu-south-1,sa-east-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,me-south-1,af-south-1,ap-south-1,ap-east-1,ap-southeast-2,ap-southeast-1
+WY;Wyoming;us-west-1;us-west-1,us-west-2,us-east-2,us-east-1,ca-central-1,eu-west-1,eu-west-2,eu-north-1,eu-west-3,eu-central-1,eu-south-1,ap-northeast-1,ap-northeast-3,ap-northeast-2,sa-east-1,ap-east-1,me-south-1,ap-south-1,ap-southeast-2,ap-southeast-1,af-south-1
